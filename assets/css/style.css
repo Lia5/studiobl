@@ -1,0 +1,2306 @@
+@charset "UTF-8";
+/* CSS Document */
+/* line 5, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 10, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.test {
+  float: left; }
+
+/* line 14, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+body {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #2f2f2f;
+  line-height: 18px;
+  min-width: 1024px; }
+
+/* line 25, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.clr {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  overflow: hidden;
+  height: 0;
+  line-height: 0; }
+
+/* line 34, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+img {
+  border: none; }
+
+/* line 38, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+a {
+  color: #009841;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s; }
+
+/* line 47, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+a:hover {
+  text-decoration: none;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s; }
+
+/* line 56, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+a img {
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s; }
+
+/* line 64, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+a:hover img {
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s; }
+
+/* line 72, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+p {
+  padding-bottom: 20px; }
+
+/* line 76, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+h1 {
+  font-family: 'PT Serif', serif;
+  padding-bottom: 25px;
+  font-size: 30px;
+  color: #000000;
+  font-weight: normal;
+  line-height: 28px; }
+
+/* line 85, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+h2 {
+  font-family: 'PT Serif', serif;
+  padding-bottom: 25px;
+  font-size: 24px;
+  color: #000;
+  font-weight: normal; }
+
+/* line 93, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+h3 {
+  font-family: 'PT Serif', serif;
+  padding-bottom: 25px;
+  font-size: 20px;
+  color: #000;
+  font-weight: normal;
+  width: 100%; }
+
+/* line 102, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.resize {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative; }
+
+/* line 108, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.infor {
+  position: relative;
+  z-index: 99999999999; }
+
+/*Header*/
+/* line 116, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.header {
+  position: relative;
+  z-index: 9999;
+  background: url(/assets/images/header_bg.jpg) repeat-x left bottom;
+  height: 540px;
+  width: 100%;
+  border-top: 3px solid #02af4f;
+  border-bottom: 2px solid #02af4f; }
+
+/* line 127, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.mainpadding {
+  margin-bottom: 45px; }
+
+/* line 131, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.smallheader {
+  height: 260px; }
+
+/* line 135, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.logo {
+  float: left;
+  margin-top: 10px; }
+  /* line 138, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .logo.index {
+    margin-left: 50px; }
+
+/* line 143, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.top_menu {
+  float: right;
+  margin: 30px 0; }
+
+/* line 148, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.top_menu ul li {
+  float: left;
+  list-style: none;
+  padding-left: 25px;
+  font-family: 'PT Serif', serif; }
+
+/* line 155, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.top_menu ul li:first-child {
+  padding-left: 0px !important; }
+
+/* line 159, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.top_menu ul li a {
+  color: #484747;
+  font-size: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(72, 71, 71, 0.18); }
+
+/* line 166, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.top_menu ul li a:hover {
+  color: #00933e;
+  border-bottom: 1px solid transparent; }
+
+/* line 171, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.contacts_and_services {
+  float: right; }
+
+/* line 175, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.priem {
+  float: left;
+  width: 250px;
+  background: url(/assets/images/icons/pencil.png) no-repeat 10px top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 50px; }
+
+/* line 184, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.priem a {
+  text-decoration: none;
+  border-bottom: 1px dashed #00933e;
+  color: #00ad4d;
+  text-shadow: 1px 0 0 #fff;
+  font-size: 20px;
+  font-family: 'PT Serif', serif; }
+
+/* line 193, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.priem p {
+  font-size: 14px;
+  color: #797979;
+  padding-top: 5px; }
+
+/* line 199, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.contacts {
+  font-family: 'PT Serif', serif;
+  position: relative;
+  top: 3px;
+  float: right;
+  background: url(/assets/images/contacts_sep.png) no-repeat right 30%;
+  position: relative;
+  left: 10px;
+  padding-right: 10px;
+  z-index: 99999999; }
+
+/* line 211, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.number {
+  position: relative;
+  bottom: 3px;
+  float: left;
+  color: #00aa4b;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 1px 0 0 #fff;
+  margin-left: 70px; }
+
+/* line 222, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.number small {
+  font-size: 18px;
+  color: #000;
+  font-weight: normal; }
+
+/* line 228, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.time {
+  color: #797979;
+  font-size: 18px;
+  text-align: right;
+  position: relative;
+  bottom: -10px; }
+
+/* line 236, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.time strong {
+  color: #424242; }
+
+/* line 240, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.left_menu {
+  float: left;
+  background: url(/assets/images/menu_bg.png) no-repeat;
+  width: 256px;
+  margin-right: -30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-bottom: 30px;
+  position: relative;
+  top: 10px; }
+
+/* line 252, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.left_menu ul {
+  margin-top: 10px; }
+
+/* line 256, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.left_menu ul li {
+  list-style: none;
+  background: url(/assets/images/menu_sep.png) no-repeat center bottom; }
+
+/* line 261, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.left_menu ul li:last-child {
+  background: none; }
+
+/* line 265, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.left_menu ul li a {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 20px;
+  display: block;
+  text-decoration: none;
+  font-family: 'PT Serif', serif;
+  line-height: 16px; }
+
+/* line 275, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.left_menu ul li a:hover,
+.left_menu ul li.current {
+  background: rgba(255, 255, 255, 0.28); }
+
+/* line 280, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.left_menu:after {
+  content: url(/assets/images/shadow.png);
+  position: relative;
+  top: 20px;
+  right: 40px; }
+
+/* line 287, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.search {
+  background: #f7f7f7;
+  width: 280px;
+  height: 40px;
+  position: relative;
+  z-index: 9999999;
+  right: 12px;
+  top: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
+
+/* line 298, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.search input[type="text"] {
+  font-family: Verdana, Geneva, sans-serif;
+  width: 200px;
+  padding-left: 36px;
+  height: 40px;
+  color: #000;
+  font-size: 12px;
+  background: none;
+  outline: none;
+  border: none; }
+
+/* line 310, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.search input[type="submit"] {
+  background: url(/assets/images/icons/search.png) no-repeat;
+  width: 19px;
+  height: 18px;
+  outline: none;
+  border: none;
+  float: right;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 12px; }
+
+/* NEW */
+/*SLIDER*/
+/* line 330, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.caption {
+  z-index: 999; }
+
+/* line 334, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sliderin img {
+  z-index: 0; }
+
+/* line 338, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.now_slider {
+  position: relative;
+  width: 720px;
+  height: 446px;
+  float: left;
+  margin: -88px -32px 0 0;
+  padding: 0;
+  left: 80px; }
+
+/* line 349, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.slider {
+  float: right;
+  height: 446px;
+  margin: 0;
+  overflow: hidden;
+  width: 720px; }
+
+/* line 358, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.slide {
+  position: relative;
+  height: 446px;
+  width: 720px;
+  z-index: 100; }
+
+/* line 366, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.slide img {
+  position: absolute;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  right: 0px;
+  bottom: 0;
+  z-index: 100; }
+
+/* line 375, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.caption {
+  position: absolute;
+  left: 0px;
+  top: 108px;
+  width: 425px;
+  z-index: 98;
+  font-family: 'PT Serif', serif; }
+
+/* line 384, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.caption h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 65px;
+  color: #00ac4d;
+  line-height: 65px;
+  font-weight: bold;
+  text-shadow: 1px 0px rgba(0, 97, 41, 0.75);
+  font-weight: normal; }
+
+/* line 394, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.caption h2 {
+  font-family: 'PT Serif', serif;
+  font-size: 36px;
+  color: #000;
+  font-weight: normal; }
+
+/* line 401, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.caption h2 span {
+  color: #00ac4c;
+  font-size: 54px; }
+
+/* line 406, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.caption p {
+  font-family: 'PT Serif', serif;
+  line-height: 22px;
+  color: #646464;
+  font-size: 20px;
+  margin: 5px 0 15px 0; }
+
+/* line 414, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pager {
+  position: absolute;
+  bottom: 18px;
+  left: 100px;
+  z-index: 99; }
+
+/* line 421, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pager a {
+  background: url(/assets/images/slider/btn.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+  margin-right: 8px; }
+
+/* line 430, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pager a:hover {
+  background: url(/assets/images/slider/btn_a.png) no-repeat; }
+
+/* line 434, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pager a.activeSlide {
+  background: url(/assets/images/slider/btn_a.png) no-repeat; }
+
+/*END OF SLIDER*/
+/*CONTENT*/
+/* line 444, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.container {
+  position: relative;
+  z-index: 999; }
+
+/* line 449, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.info {
+  width: 60%;
+  margin: 50px 0px;
+  position: relative;
+  z-index: 9;
+  right: 35px;
+  float: right;
+  font-family: 'PT Serif', serif; }
+
+/* line 459, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.info p {
+  font-size: 18px;
+  color: #8f8f8f;
+  text-align: right;
+  position: relative;
+  z-index: 9; }
+
+/* line 467, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.info p a {
+  background: url(/assets/images/icons/ask.png) no-repeat 15px center;
+  padding-left: 50px;
+  font-size: 24px;
+  color: #00ac4d; }
+
+/* line 474, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.subinfo {
+  width: 60%;
+  margin: 25px 0px;
+  position: relative;
+  z-index: 9;
+  right: 0px;
+  float: right;
+  font-family: 'PT Serif', serif; }
+
+/* line 484, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.subinfo p a {
+  font-size: 20px !important; }
+
+/* line 488, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.content {
+  width: 756px;
+  position: relative;
+  margin-top: 212px; }
+  /* line 492, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .content.index {
+    margin-top: 150px; }
+
+/* line 497, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.content img {
+  margin-right: 5px; }
+
+/* line 501, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.content ul,
+.contentlayout ul {
+  padding-left: 30px;
+  padding-bottom: 20px; }
+
+/* line 507, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.scontent {
+  float: none;
+  width: 100%; }
+
+/* line 514, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.contentlayout {
+  padding-left: 280px;
+  padding-top: 20px; }
+
+/* line 519, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sladerin .item {
+  min-height: 50px; }
+
+/* line 523, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sladerin .item img {
+  min-height: 22px; }
+
+/* line 527, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.fancybox-overlay {
+  z-index: 999999999999; }
+
+/* line 531, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.payments {
+  margin: 45px 0 0px 0; }
+
+/* line 535, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.payments a {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.53);
+  padding-left: 50px;
+  margin-right: 60px;
+  font-family: 'PT Serif', serif; }
+
+/* line 543, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.payments .visa {
+  background: url(/assets/images/cards/visa.png) no-repeat left center; }
+
+/* line 547, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.payments .master {
+  background: url(/assets/images/cards/master_card.png) no-repeat left center; }
+
+/* line 551, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.payments .cash {
+  background: url(/assets/images/cards/nal.png) no-repeat left center;
+  margin-right: 0; }
+
+/*Sidebar*/
+/* line 559, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sidebar {
+  position: relative;
+  background: url(/assets/images/partners/clients_bg.png) no-repeat;
+  width: 236px;
+  float: right;
+  text-align: center;
+  font-size: 14px;
+  color: #848484;
+  height: 510px;
+  margin-top: -1069px; }
+
+/* line 571, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sidebar .titler h1 {
+  color: #006e2e;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 33px; }
+
+/* line 578, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sidebar .titler p {
+  padding-bottom: 19px; }
+
+/* line 582, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.item {
+  border-top: 1px solid #dddddd;
+  width: 200px;
+  margin-left: 18px;
+  padding: 10px 0 0 0; }
+
+/* line 589, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.item img {
+  padding-bottom: 10px; }
+
+/* line 593, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.item p {
+  width: 210px; }
+
+/* line 597, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.item:nth-child(2) {
+  padding-top: 20px; }
+
+/* line 601, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.item:last-child {
+  padding-top: 15px;
+  margin-bottom: 35px; }
+
+/* line 606, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pagerok {
+  position: absolute;
+  bottom: -10px;
+  left: 85px;
+  z-index: 99;
+  margin: 20px 0 30px 0; }
+
+/* line 614, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pagerok a {
+  background: url(/assets/images/partners/btn.png) no-repeat;
+  width: 8px;
+  height: 7px;
+  display: block;
+  float: left;
+  margin-right: 8px; }
+
+/* line 623, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pagerok a:hover {
+  background: url(/assets/images/partners/btn_a.png) no-repeat; }
+
+/* line 627, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pagerok a.activeSlide {
+  background: url(/assets/images/partners/btn_a.png) no-repeat; }
+
+/*Footer*/
+/* line 634, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.footer {
+  margin-top: 50px;
+  background: #00ae4e;
+  padding: 20px 0;
+  color: #fff; }
+
+/* line 641, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social {
+  float: left; }
+
+/* line 645, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a {
+  margin-left: 4px;
+  position: relative;
+  top: 12px; }
+
+/* line 651, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.facebook img {
+  background: url(/assets/images/social/s1.png) no-repeat; }
+
+/* line 655, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.facebook:hover img {
+  background: url(/assets/images/social/s1_a.png) no-repeat; }
+
+/* line 659, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.vk img {
+  background: url(/assets/images/social/s2.png) no-repeat; }
+
+/* line 663, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.vk:hover img {
+  background: url(/assets/images/social/s2_a.png) no-repeat; }
+
+/* line 667, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.o img {
+  background: url(/assets/images/social/s3.png) no-repeat; }
+
+/* line 671, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.o:hover img {
+  background: url(/assets/images/social/s3_a.png) no-repeat; }
+
+/* line 675, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.t img {
+  background: url(/assets/images/social/s4.png) no-repeat; }
+
+/* line 679, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.t:hover img {
+  background: url(/assets/images/social/s4_a.png) no-repeat; }
+
+/* line 683, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.ig img {
+  background: url(/assets/images/social/aja-ss5.png) no-repeat; }
+
+/* line 687, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.social a.ig:hover img {
+  background: url(/assets/images/social/aja-ss5_a.png) no-repeat; }
+
+/* line 691, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.middle {
+  float: left;
+  margin-left: 80px;
+  margin-top: 20px; }
+
+/* line 697, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.righter {
+  float: right;
+  margin-top: 20px; }
+
+/* line 702, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.righter a {
+  color: #fff; }
+
+/* line 706, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.question {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 110%;
+  padding-bottom: 10px; }
+
+/* line 713, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.faq_item {
+  padding-top: 10px;
+  border-bottom: dashed 1px #17AE40;
+  padding-bottom: 20px; }
+
+/* line 719, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+#frm-ask_us input {
+  height: 20px;
+  width: 200px;
+  font-size: 18px; }
+
+/* line 725, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+#frm-ask_us div {
+  margin-bottom: 20px; }
+
+/* line 729, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+#frm-ask_us textarea {
+  width: 200px;
+  height: 100px; }
+
+/* line 734, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+#frm-ask_us .btn {
+  width: 85px; }
+
+/* line 738, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.label {
+  width: 100px;
+  float: left; }
+
+/* line 743, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.galleries_list {
+  list-style: none;
+  padding-left: 0px !important; }
+
+/* line 748, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.galleries_list li {
+  float: left;
+  padding-left: 15px;
+  padding-bottom: 20px; }
+
+/* line 754, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pricebutton {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2c9944), color-stop(1, #17ae3f));
+  background: -moz-linear-gradient(center top, #2c9944 5%, #17ae3f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2c9944', endColorstr='#17ae3f');
+  background-color: #2c9944;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  border-top-left-radius: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  border-top-right-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-bottom-left-radius: 15px;
+  text-indent: 0;
+  border: 1px solid #83c41a;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: normal;
+  height: 35px;
+  font-size: 15px;
+  line-height: 35px;
+  width: 180px;
+  text-decoration: none;
+  text-align: center; }
+
+/* line 787, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pricebutton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #17ae3f), color-stop(1, #2c9944));
+  background: -moz-linear-gradient(center top, #17ae3f 5%, #2c9944 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#17ae3f', endColorstr='#2c9944');
+  background-color: #17ae3f; }
+
+/* line 794, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.pricebutton:active {
+  position: relative;
+  top: 1px; }
+
+/* line 799, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.roundedimg {
+  -moz-border-radius: 5px;
+  /* Firefox */
+  -webkit-border-radius: 5px;
+  /* Safari, Chrome */
+  -khtml-border-radius: 5px;
+  /* KHTML */
+  border-radius: 5px;
+  /* CSS3 */
+  -moz-box-shadow: 0px 0px 10px #383838;
+  -webkit-box-shadow: 0px 0px 10px #383838;
+  box-shadow: 0px 0px 10px #383838;
+  padding: 0; }
+
+/* line 814, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.testimonials {
+  background: none !important; }
+
+/* line 818, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sendbutton {
+  -moz-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52));
+  background: -moz-linear-gradient(center top, #b8e356 5%, #a5cc52 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
+  background-color: #b8e356;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+  text-indent: 0;
+  border: 1px solid #83c41a;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 38px;
+  line-height: 38px;
+  width: 131px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #86ae47; }
+
+/* line 854, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sendbutton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356));
+  background: -moz-linear-gradient(center top, #a5cc52 5%, #b8e356 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
+  background-color: #a5cc52; }
+
+/* line 861, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sendbutton:active {
+  position: relative;
+  top: 1px; }
+
+/* line 866, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+textarea {
+  font-size: 14px; }
+
+/* line 870, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sbh {
+  color: #006E2E;
+  padding-bottom: 5px;
+  padding-top: 33px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+  font-weight: normal; }
+
+/* line 880, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sbrh {
+  font-family: 'PT Serif', serif;
+  font-size: 58px;
+  color: #00ac4d;
+  line-height: 65px;
+  font-weight: bold;
+  text-shadow: 1px 0px rgba(0, 97, 41, 0.75);
+  font-weight: normal;
+  padding-bottom: 25px; }
+
+/* line 891, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.otz {
+  color: #000000;
+  font-family: 'PT Serif', serif;
+  font-size: 28px;
+  font-weight: normal;
+  padding-bottom: 25px; }
+
+/* line 899, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.popup_socials {
+  height: 209px;
+  position: fixed;
+  top: 235px;
+  left: -155px;
+  background: #00ae4e;
+  border-radius: 0;
+  z-index: 199999999999;
+  width: 148px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 15px;
+  padding: 0px 0px 0 5px; }
+
+/* line 913, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.popup_socials .ps_close {
+  position: absolute;
+  width: 209px;
+  overflow: hidden;
+  cursor: pointer;
+  background: none repeat scroll 0% 0% #00AD4D;
+  transform: rotate(270deg);
+  height: 24px;
+  right: -118px;
+  top: 87px;
+  color: #fff;
+  border-radius: 0 0 12px 12px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 11px;
+  font-style: normal;
+  -webkit-font-style: normal; }
+
+/* line 933, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.popup_socials .ps_close img {
+  width: 30px; }
+
+/* line 937, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.popup_socials .ps_caption {
+  margin: 12px 0 5px 0;
+  font-family: 'PT Serif', serif;
+  font-size: 15px;
+  color: #ffffff; }
+
+/* line 944, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.popup_socials .ps_subcaption {
+  margin: 0 10px 15px 6px;
+  color: #ffffff; }
+
+/* line 949, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.popup_socials .ps_body.social {
+  float: none;
+  font-size: 0;
+  margin: 0 0 25px 0;
+  height: 33px; }
+
+/* line 956, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.popup_socials .ps_body.social a {
+  display: inline-block;
+  top: 0;
+  margin: 0 6px; }
+
+/* line 962, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.popup_socials .ps_body.social a img {
+  display: block; }
+
+/*  NY 2014 ajandar */
+/*.header {background: url(/_ny2014/header_bg-snow2.jpg) repeat-x left top;}*/
+/*.logo:after{content: " "; background:url(/_ny2014/ajandar_ny2014-logo.jpg) 0 0 no-repeat; width:210px; height:206px; top:29px; left:12px; position:absolute;}*/
+/*.left_menu{display:relative;}*/
+/*.left_menu:after{content: " "; background:url(/_ny2014/ajandar_ny2014-hat.png) 0 0 no-repeat; width:73px; height:100px; top:-11px; left:210px; position:absolute;}*/
+/*.footer {background: url(/_ny2014/header_bg-snow44.jpg) repeat-x top center;}*/
+/*  NY 2014 ajandar */
+/* line 989, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.post .body {
+  margin-bottom: 20px; }
+
+/* line 995, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.fancybox-overlay {
+  z-index: 1000000000 !important; }
+
+/* line 996, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.fancybox-wrap {
+  z-index: 10000000000 !important; }
+
+/* line 997, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.fancybox-inner {
+  width: 99% !important; }
+  /* line 999, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .fancybox-inner textarea, .fancybox-inner input {
+    width: 99% !important; }
+
+/* line 1003, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.aja-form {
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  padding-top: 5px;
+  right: 0;
+  top: 230px;
+  width: 134px;
+  z-index: 11111;
+  height: 202px;
+  background: #ffffff;
+  border-radius: 12px 0 0 12px; }
+  /* line 1016, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .aja-form p {
+    text-align: center;
+    padding: 3px 0 7px 0;
+    font: bold 14px/10px 'PT Serif', serif; }
+  /* line 1019, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .aja-form .aja-close {
+    position: absolute;
+    PADDING: 0 0 5px 5px;
+    cursor: pointer;
+    top: 1px;
+    left: 116px;
+    width: 12px;
+    height: 15px;
+    background: #00ad4d;
+    color: #ffffff; }
+
+/* line 1025, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.flex-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+  /* line 1030, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .flex-buttons a {
+    margin-bottom: 15px;
+    margin-right: 31px;
+    width: 29%;
+    box-sizing: border-box; }
+
+/* line 1037, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.service-block {
+  display: flex; }
+
+/* line 1043, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.service-item {
+  margin-right: 1px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  background: #18271e;
+  transition: all ease 0.4s;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1px; }
+  /* line 1054, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-item .list-buttons {
+    transition: all ease 0.4s;
+    position: relative;
+    z-index: 4;
+    top: 110%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    width: 50%;
+    margin: 0 auto; }
+    /* line 1067, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .service-item .list-buttons a {
+      margin-right: 5px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+      padding: 5px 15px;
+      border: 1px solid #17a04e;
+      color: #fff;
+      border-radius: 15px;
+      text-decoration: none; }
+      /* line 1076, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .service-item .list-buttons a:hover {
+        background: #17a04e; }
+    /* line 1080, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .service-item .list-buttons p {
+      color: white; }
+  /* line 1084, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-item img {
+    transition: all ease 0.4s;
+    opacity: .4;
+    position: absolute;
+    left: 0;
+    top: -25%;
+    width: 110%; }
+    /* line 1091, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .service-item img._max {
+      max-width: 150%; }
+    /* line 1094, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .service-item img._max-big {
+      max-width: 190%; }
+  /* line 1098, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-item figure {
+    transition: all ease 0.4s;
+    font-size: 19px;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    top: 50%; }
+    /* line 1109, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .service-item figure:after {
+      content: ''; }
+  /* line 1114, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-item:hover img {
+    opacity: .2;
+    -webkit-transform: scale(1.11);
+    -moz-transform: scale(1.11);
+    -o-transform: scale(1.11);
+    -ms-transform: scale(1.11);
+    transform: scale(1.11); }
+  /* line 1122, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-item:hover figure {
+    top: 25%; }
+  /* line 1125, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-item:hover .list-buttons {
+    top: 40%; }
+  /* line 1130, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-item--big:hover figure {
+    top: -5%; }
+  /* line 1133, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-item--big:hover .list-buttons {
+    top: 13%; }
+
+/* line 1139, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.main-header {
+  padding-left: 304px;
+  margin-bottom: 55px;
+  text-align: center;
+  width: 50%; }
+
+/* line 1146, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.sl-bug {
+  padding-right: 90px;
+  display: inline-block; }
+
+/* line 1151, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.inner-page {
+  height: 250px; }
+  /* line 1154, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .inner-page .left_menu {
+    display: none; }
+
+/* line 1159, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.xs-show {
+  display: none; }
+
+/* line 1163, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.fancybox-close {
+  top: 0 !important;
+  right: 0 !important; }
+
+/* smart-content*/
+/* line 1169, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.h2 {
+  display: inline-block;
+  padding-bottom: 7px;
+  position: relative;
+  margin-bottom: 18px; }
+  /* line 1175, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .h2:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    border-radius: 33px;
+    width: 100%;
+    background: #00ad4d;
+    left: 0;
+    bottom: -3px;
+    border: 1px solid #00ad4d; }
+
+/* line 1190, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.questions .item-icon-left {
+  align-items: flex-start;
+  margin-bottom: 25px; }
+
+/* prices */
+/* line 1198, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.acc h2 {
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  color: #fff;
+  font-weight: normal;
+  background: #00ae4e;
+  padding: 15px 20px;
+  cursor: pointer;
+  position: relative;
+  /* box-shadow: 0px 2px 8px 0px #000; */
+  border-bottom: 1px solid white; }
+  /* line 1210, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .acc h2:hover {
+    background: rgba(0, 174, 78, 0.95); }
+    /* line 1212, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .acc h2:hover:before {
+      left: 4px; }
+  /* line 1218, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .acc h2:before {
+    content: '';
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: -4px;
+    top: 0;
+    background: white;
+    transition: all .3s; }
+
+/* line 1230, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+tr:hover {
+  background: #e4fff0;
+  font-weight: bold; }
+
+/*accordion*/
+/* line 1236, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.acc > div {
+  overflow: hidden;
+  height: 0;
+  transition: height .3s; }
+
+/* bio */
+/* line 1243, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.bold {
+  font-weight: bold; }
+
+/* line 1246, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.item-icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center; }
+  /* line 1252, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .item-icon img {
+    margin-bottom: 10px; }
+  /* line 1255, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .item-icon .header-text {
+    font-weight: bold;
+    text-align: center; }
+  /* line 1259, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .item-icon .text {
+    text-align: center; }
+
+/* line 1264, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.item-icon-left {
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  box-sizing: border-box; }
+  /* line 1271, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .item-icon-left img {
+    margin-right: 10px; }
+  /* line 1274, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .item-icon-left p {
+    padding: 0; }
+
+/* line 1281, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.service-info {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px; }
+  /* line 1285, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-info img {
+    margin-left: 15px;
+    width: 45%; }
+
+/* line 1291, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.points {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  align-items: flex-start; }
+  /* line 1296, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .points .item-icon {
+    margin: 0 15px;
+    width: 100%; }
+    /* line 1300, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .points .item-icon p {
+      padding-bottom: 7px; }
+
+/* line 1305, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.problem {
+  display: flex;
+  flex-wrap: wrap; }
+  /* line 1308, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .problem .item-icon-left {
+    width: 50%; }
+
+/* line 1314, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.cta-block {
+  padding-left: 20px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid #00ad4d; }
+  /* line 1322, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .cta-block.master {
+    width: 75%;
+    margin: 40px auto; }
+    /* line 1325, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .cta-block.master .pricebutton {
+      width: 100%;
+      margin-top: 15px; }
+  /* line 1330, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .cta-block p {
+    margin-bottom: 0;
+    padding-bottom: 10px; }
+  /* line 1334, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .cta-block .cta-header {
+    font-size: 24px; }
+  /* line 1337, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .cta-block .number {
+    float: none;
+    top: 5px;
+    margin-left: 20px; }
+
+/* line 1343, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.fancybox-inner {
+  height: auto !important; }
+
+/* line 1347, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.soc-icon {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white; }
+  /* line 1355, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .soc-icon i {
+    width: 100%;
+    line-height: 25px;
+    text-align: center; }
+  /* line 1360, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .soc-icon.vk {
+    background: #507299;
+    color: white; }
+    /* line 1364, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .soc-icon.vk:hover {
+      transform: scale(1.05); }
+
+/* line 1369, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.testimonails-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 30px; }
+
+/* line 1375, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.testimonails-answer {
+  width: 50%;
+  background: #00ad4d;
+  border-radius: 25px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-top-right-radius: 0; }
+  /* line 1387, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-answer p {
+    padding: 0; }
+  /* line 1390, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-answer .sign {
+    float: right; }
+    /* line 1392, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .testimonails-answer .sign img {
+      border-radius: 50%;
+      width: 55px;
+      height: 55px; }
+
+/* line 1402, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+#review_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  /* line 1407, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  #review_form input {
+    height: 35px;
+    width: 30%;
+    padding: 0 10px;
+    color: black;
+    border: 1px solid #00ad4d;
+    margin-right: 10px; }
+  /* line 1416, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  #review_form input.pricebutton {
+    cursor: pointer;
+    color: white; }
+  /* line 1420, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  #review_form textarea {
+    padding: 10px;
+    color: black;
+    border: 1px solid #00ad4d;
+    margin-bottom: 15px;
+    font-size: 13.3333px;
+    line-height: normal;
+    font-family: Arial; }
+  /* line 1429, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  #review_form > div {
+    margin-bottom: 10px; }
+
+/* line 1434, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.thanks {
+  display: none; }
+
+/* line 1438, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+.testimonails-block {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  width: 100%; }
+  /* line 1443, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-block .picture {
+    position: relative;
+    margin-right: 25px; }
+    /* line 1446, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .testimonails-block .picture img {
+      border: 1px solid #00ad4d;
+      border-radius: 50%; }
+    /* line 1450, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .testimonails-block .picture .name {
+      position: absolute;
+      bottom: -45px;
+      text-align: center;
+      width: 100%;
+      font-weight: 600; }
+  /* line 1458, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-block .soc-icon {
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+  /* line 1465, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-block .test-info {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px; }
+    /* line 1469, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .testimonails-block .test-info > div {
+      margin-right: 20px; }
+  /* line 1473, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-block .testimonail-text {
+    border-bottom: 1px dashed #00ad4d;
+    border-top: 1px dashed #00ad4d;
+    padding: 10px 0; }
+
+@media (max-width: 376px) {
+  /* line 1484, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  #review_form input.pricebutton {
+    width: 95%; }
+  /* line 1488, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-block {
+    flex-direction: column; }
+    /* line 1491, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .testimonails-block .picture .name {
+      bottom: 21px;
+      right: -100%; }
+    /* line 1496, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .testimonails-block .test-info {
+      margin-top: 10px;
+      justify-content: space-between; }
+  /* line 1501, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-answer {
+    width: 100%; }
+  /* line 1505, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .fancybox-wrap {
+    width: 100% !important;
+    height: auto !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important; }
+  /* line 1513, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  body {
+    min-width: 100%; }
+  /* line 1516, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .scontent {
+    float: none;
+    width: 100%; }
+    /* line 1520, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .scontent img {
+      width: 100%;
+      height: auto; }
+  /* line 1525, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .clr {
+    display: none; }
+  /* line 1528, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .resize {
+    width: 100%;
+    float: none;
+    display: flex;
+    flex-direction: column; }
+  /* line 1537, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .inner-page .logo {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 0;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #02af4f;
+    background: url(/assets/images/header_bg.jpg);
+    top: -2px;
+    z-index: 9999999999999999999999; }
+  /* line 1553, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .contentlayout {
+    padding: 0 5px; }
+  /* line 1555, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .left_menu {
+    display: none;
+    width: 100%;
+    float: none;
+    position: fixed;
+    z-index: 99999999999999999999999999;
+    background: #00ad4d;
+    height: 100%;
+    top: 0; }
+    /* line 1564, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .left_menu p {
+      color: white;
+      padding: 19px 0 5px 21px;
+      font-size: 23px;
+      /* border-bottom: 1px solid white; */
+      width: 100%;
+      margin-left: 10px;
+      font-weight: 600;
+      text-align: center; }
+    /* line 1574, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .left_menu--close {
+      position: absolute;
+      PADDING: 0;
+      cursor: pointer;
+      top: 0;
+      left: inherit;
+      width: 50px;
+      height: 50px;
+      background: #00ad4d;
+      color: #ffffff;
+      line-height: 46px;
+      text-align: center;
+      font-size: 25px;
+      right: 0;
+      text-decoration: none; }
+    /* line 1593, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .left_menu .search {
+      display: none; }
+  /* line 1598, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .now_slider {
+    order: 3;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    float: none; }
+    /* line 1608, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .now_slider .slider {
+      width: 100%;
+      float: none;
+      height: 250px; }
+    /* line 1613, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .now_slider .slide {
+      width: 100%;
+      height: 250px;
+      float: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0 10px; }
+      /* line 1620, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .now_slider .slide .caption {
+        position: static;
+        width: 100%;
+        line-height: 36px; }
+        /* line 1625, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+        .now_slider .slide .caption p {
+          padding-right: 5px; }
+      /* line 1629, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .now_slider .slide img {
+        display: none; }
+  /* line 1634, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .content {
+    width: 100%;
+    float: none;
+    box-sizing: border-box;
+    padding: 0 5px; }
+    /* line 1639, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .content img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 10px; }
+    /* line 1645, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .content.index {
+      margin-top: 0; }
+      /* line 1647, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .content.index li {
+        margin: 0 !important; }
+  /* line 1652, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .sidebar {
+    width: 100%;
+    float: none;
+    margin: 0;
+    display: none; }
+  /* line 1658, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-block {
+    flex-direction: column; }
+    /* line 1661, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .service-block .service-item {
+      margin-bottom: 0; }
+  /* line 1665, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .logo,
+  .top_menu,
+  .contacts_and_services,
+  .time,
+  .contacts,
+  .info,
+  .social,
+  .middle {
+    float: none; }
+  /* line 1675, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .contacts_and_services {
+    order: 0;
+    margin-top: 70px; }
+  /* line 1681, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .logo img {
+    width: 52px;
+    height: 52px; }
+  /* line 1685, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .logo.index {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 0;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #02af4f;
+    background: url(/assets/images/header_bg.jpg);
+    top: -2px;
+    z-index: 9999999999999999999999; }
+  /* line 1701, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .logo a.btn-menu {
+    border: 1px solid #17a04e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    background: #17a04e; }
+    /* line 1710, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .logo a.btn-menu--empty {
+      background: none;
+      color: #17a04e; }
+  /* line 1716, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .top_menu {
+    order: 1;
+    padding: 0 10px; }
+    /* line 1720, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .top_menu ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      /* line 1724, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .top_menu ul li {
+        padding-left: 0px;
+        width: 50%; }
+  /* line 1730, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .contacts {
+    top: 0;
+    float: none;
+    background: none;
+    left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    /* line 1739, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .contacts .number {
+      position: relative;
+      bottom: 0;
+      margin-left: 0; }
+  /* line 1745, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .info {
+    width: 100%;
+    right: 0;
+    padding: 0 5px;
+    box-sizing: border-box; }
+    /* line 1750, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .info p {
+      text-align: center; }
+      /* line 1752, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .info p a {
+        margin-top: 15px;
+        display: inline-block; }
+  /* line 1758, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .payments {
+    margin: 25px 0 0px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  /* line 1764, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .flex-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; }
+    /* line 1770, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .flex-buttons a {
+      margin-bottom: 10px;
+      margin-right: 0;
+      width: 100%;
+      box-sizing: border-box; }
+  /* line 1778, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .footer .number {
+    position: relative;
+    bottom: 0;
+    float: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none; }
+    /* line 1790, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .footer .number small {
+      color: #fff; }
+  /* line 1794, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .footer .middle {
+    margin: 0;
+    padding: 5px; }
+  /* line 1799, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .footer .righter {
+    display: none; }
+  /* line 1802, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .footer p {
+    text-align: center; }
+  /* line 1806, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .sbrh {
+    line-height: 36px;
+    font-size: 33px; }
+  /* line 1810, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .main-header {
+    padding-left: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%; }
+  /* line 1816, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .pricebutton {
+    width: 350px; }
+  /* line 1819, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .xs-show {
+    display: block; }
+  /* line 1822, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .xs-hide {
+    display: none; }
+  /* line 1826, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .aja-form {
+    position: fixed;
+    overflow: hidden;
+    padding-top: 5px;
+    right: 0px;
+    top: 0;
+    width: 100%;
+    z-index: 11111;
+    height: 202px;
+    background: white;
+    /* box-shadow: rgb(170, 170, 170) 0px 2px 15px; */
+    border-radius: 12px 0px 0px 12px;
+    height: 100%; }
+    /* line 1842, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .aja-form p {
+      text-align: center;
+      padding: 0;
+      margin: 25% 0 15px 0;
+      font-size: 1.6rem;
+      line-height: 1.4rem; }
+    /* line 1849, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .aja-form .aja-close {
+      position: absolute;
+      PADDING: 0;
+      cursor: pointer;
+      top: 0;
+      left: inherit;
+      width: 50px;
+      height: 50px;
+      background: #00ad4d;
+      color: #ffffff;
+      line-height: 46px;
+      text-align: center;
+      font-size: 25px;
+      right: 0; }
+    /* line 1865, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .aja-form iframe {
+      width: 100%;
+      padding: 0 15px;
+      box-sizing: border-box; }
+  /* line 1875, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body a.yButton {
+    z-index: 999999 !important;
+    width: auto !important;
+    height: auto !important; }
+  /* line 1880, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body .yButton.left {
+    left: 0 !important;
+    top: -11px !important; }
+  /* line 1885, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body .yButtonBackground {
+    display: none !important; }
+  /* line 1888, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body .yButtonText {
+    box-sizing: border-box !important;
+    border: 1px solid #17a04e  !important;
+    color: #fff !important;
+    font-family: "PT Sans", sans-serif !important;
+    height: auto !important;
+    font-size: 14px !important;
+    padding: 5px 10px !important;
+    border-radius: 25px !important;
+    text-decoration: none !important;
+    background: #17a04e !important;
+    width: 100px !important;
+    line-height: 18px !important;
+    font-weight: 400 !important;
+    letter-spacing: inherit !important; }
+  /* line 1907, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body .yButtonWave {
+    display: none !important; }
+  /* line 1913, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .cta-block {
+    flex-direction: column; }
+    /* line 1915, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .cta-block.master {
+      margin: 25px 0; }
+    /* line 1921, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .cta-block .number {
+      float: none;
+      top: 10px;
+      margin-left: 0;
+      /* right: 50%; */
+      width: 100%;
+      display: block; }
+    /* line 1930, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .cta-block img {
+      width: 150px;
+      height: 150px;
+      margin-top: 20px; }
+  /* line 1937, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .problem {
+    flex-direction: column; }
+    /* line 1939, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .problem .item-icon-left {
+      width: 100%; }
+      /* line 1941, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .problem .item-icon-left img {
+        width: 30px; }
+  /* line 1946, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .points {
+    flex-direction: column; }
+    /* line 1948, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .points .item-icon {
+      margin: 0 0 15px 0; }
+    /* line 1952, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .points.image img {
+      width: 100%; }
+    /* line 1956, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .points img {
+      width: 25%; }
+  /* line 1961, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .cta-block div {
+    margin-bottom: 20px; }
+  /* line 1968, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .item-icon-left img {
+    width: 25px; }
+  /* line 1972, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .h2 {
+    line-height: 1.1; } }
+
+@media (max-width: 376px) {
+  /* line 1979, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  body {
+    min-width: 100%; }
+  /* line 1982, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .pricebutton {
+    width: 300px; }
+  /* line 1985, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .aja-formname {
+    display: none !important; } }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (device-width: 414px) and (device-height: 736px) and (-webkit-min-device-pixel-ratio: 3) and (-webkit-device-pixel-ratio: 3) {
+  /* line 1999, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  body {
+    min-width: 100%;
+    font-size: 16px; }
+  /* line 2003, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .scontent {
+    float: none;
+    width: 100%; }
+    /* line 2007, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .scontent img {
+      width: 100%;
+      height: auto; }
+  /* line 2012, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .clr {
+    display: none; }
+  /* line 2015, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .resize {
+    width: 100%;
+    float: none;
+    display: flex;
+    flex-direction: column; }
+  /* line 2024, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .inner-page .logo {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 0;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #02af4f;
+    background: url(/assets/images/header_bg.jpg);
+    top: -2px;
+    z-index: 9999999999999999999999; }
+  /* line 2040, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .contentlayout {
+    padding: 0 5px; }
+  /* line 2042, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .left_menu {
+    display: none;
+    width: 100%;
+    float: none;
+    position: fixed;
+    z-index: 9999999999999;
+    background: #00ad4d;
+    height: 100%;
+    top: 0; }
+    /* line 2051, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .left_menu p {
+      color: white;
+      padding: 19px 0 5px 21px;
+      font-size: 23px;
+      /* border-bottom: 1px solid white; */
+      width: 100%;
+      margin-left: 10px;
+      font-weight: 600;
+      text-align: center; }
+    /* line 2061, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .left_menu--close {
+      position: absolute;
+      PADDING: 0;
+      cursor: pointer;
+      top: 0;
+      left: inherit;
+      width: 50px;
+      height: 50px;
+      background: #00ad4d;
+      color: #ffffff;
+      line-height: 46px;
+      text-align: center;
+      font-size: 25px;
+      right: 0;
+      text-decoration: none; }
+    /* line 2080, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .left_menu .search {
+      display: none; }
+  /* line 2085, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .now_slider {
+    order: 3;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    float: none; }
+    /* line 2095, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .now_slider .slider {
+      width: 100%;
+      float: none;
+      height: 250px; }
+    /* line 2100, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .now_slider .slide {
+      width: 100%;
+      height: 250px;
+      float: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0 10px; }
+      /* line 2107, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .now_slider .slide .caption {
+        position: static;
+        width: 100%;
+        line-height: 36px; }
+        /* line 2112, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+        .now_slider .slide .caption p {
+          padding-right: 5px; }
+      /* line 2116, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .now_slider .slide img {
+        display: none; }
+  /* line 2121, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .content {
+    width: 100%;
+    float: none;
+    box-sizing: border-box;
+    padding: 0 5px; }
+    /* line 2126, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .content img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 10px; }
+    /* line 2132, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .content.index {
+      margin-top: 0; }
+      /* line 2134, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .content.index li {
+        margin: 0 !important; }
+  /* line 2139, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .sidebar {
+    width: 100%;
+    float: none;
+    margin: 0;
+    display: none; }
+  /* line 2145, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .service-block {
+    flex-direction: column; }
+    /* line 2148, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .service-block .service-item {
+      margin-bottom: 0; }
+  /* line 2152, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .logo,
+  .top_menu,
+  .contacts_and_services,
+  .time,
+  .contacts,
+  .info,
+  .social,
+  .middle {
+    float: none; }
+  /* line 2162, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .contacts_and_services {
+    order: 0;
+    margin-top: 70px; }
+  /* line 2168, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .logo img {
+    width: 52px;
+    height: 52px; }
+  /* line 2172, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .logo.index {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 0;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #02af4f;
+    background: url(/assets/images/header_bg.jpg);
+    top: -2px;
+    z-index: 9999999999999999999999; }
+  /* line 2188, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .logo a.btn-menu {
+    border: 1px solid #17a04e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    background: #17a04e; }
+    /* line 2197, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .logo a.btn-menu--empty {
+      background: none;
+      color: #17a04e; }
+  /* line 2203, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .top_menu {
+    order: 1;
+    padding: 0 10px; }
+    /* line 2207, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .top_menu ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      /* line 2211, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .top_menu ul li {
+        padding-left: 0px;
+        width: 50%; }
+  /* line 2217, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .contacts {
+    top: 0;
+    float: none;
+    background: none;
+    left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    /* line 2226, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .contacts .number {
+      position: relative;
+      bottom: 0;
+      margin-left: 0; }
+  /* line 2232, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .info {
+    width: 100%;
+    right: 0;
+    padding: 0 5px;
+    box-sizing: border-box; }
+    /* line 2237, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .info p {
+      text-align: center; }
+      /* line 2239, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .info p a {
+        margin-top: 15px;
+        display: inline-block; }
+  /* line 2245, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .payments {
+    margin: 25px 0 0px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  /* line 2251, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .flex-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; }
+    /* line 2257, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .flex-buttons a {
+      margin-bottom: 10px;
+      margin-right: 0;
+      width: 100%;
+      box-sizing: border-box; }
+  /* line 2265, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .footer .number {
+    position: relative;
+    bottom: 0;
+    float: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none; }
+    /* line 2277, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .footer .number small {
+      color: #fff; }
+  /* line 2281, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .footer .middle {
+    margin: 0;
+    padding: 5px; }
+  /* line 2286, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .footer .righter {
+    display: none; }
+  /* line 2289, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .footer p {
+    text-align: center; }
+  /* line 2293, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .sbrh {
+    line-height: 36px;
+    font-size: 33px; }
+  /* line 2297, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .main-header {
+    padding-left: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%; }
+  /* line 2303, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .pricebutton {
+    width: 380px; }
+  /* line 2306, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .xs-show {
+    display: block; }
+  /* line 2309, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .xs-hide {
+    display: none; }
+  /* line 2313, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .aja-form {
+    position: fixed;
+    overflow: hidden;
+    padding-top: 5px;
+    right: 0px;
+    top: 0;
+    width: 100%;
+    z-index: 11111;
+    height: 202px;
+    background: white;
+    /* box-shadow: rgb(170, 170, 170) 0px 2px 15px; */
+    border-radius: 12px 0px 0px 12px;
+    height: 100%; }
+    /* line 2329, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .aja-form p {
+      text-align: center;
+      padding: 0;
+      margin: 25% 0 15px 0;
+      font-size: 1.6rem;
+      line-height: 1.4rem; }
+    /* line 2336, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .aja-form .aja-close {
+      position: absolute;
+      PADDING: 0;
+      cursor: pointer;
+      top: 0;
+      left: inherit;
+      width: 50px;
+      height: 50px;
+      background: #00ad4d;
+      color: #ffffff;
+      line-height: 46px;
+      text-align: center;
+      font-size: 25px;
+      right: 0; }
+    /* line 2352, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .aja-form iframe {
+      width: 100%;
+      padding: 0 15px;
+      box-sizing: border-box; }
+  /* line 2362, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body a.yButton {
+    width: auto !important;
+    height: auto !important; }
+  /* line 2367, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body .yButton.left {
+    z-index: 9999 !important;
+    left: 0 !important;
+    top: -11px !important; }
+  /* line 2373, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body .yButtonBackground {
+    display: none !important; }
+  /* line 2376, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body .yButtonText {
+    box-sizing: border-box !important;
+    border: 1px solid #17a04e  !important;
+    color: #fff !important;
+    font-family: "PT Sans", sans-serif !important;
+    height: auto !important;
+    font-size: 14px !important;
+    padding: 5px 10px !important;
+    border-radius: 25px !important;
+    text-decoration: none !important;
+    background: #17a04e !important;
+    width: 100px !important;
+    line-height: 18px !important;
+    font-weight: 400 !important;
+    letter-spacing: inherit !important; }
+  /* line 2395, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  html body .yButtonWave {
+    display: none !important; }
+  /* line 2401, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .problem {
+    flex-direction: column; }
+    /* line 2403, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .problem .item-icon-left {
+      width: 100%; }
+      /* line 2405, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+      .problem .item-icon-left img {
+        width: 30px; }
+  /* line 2410, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .points {
+    flex-direction: column; }
+    /* line 2412, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .points .item-icon {
+      margin: 0 0 15px 0; }
+    /* line 2416, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .points.image img {
+      width: 100%; }
+    /* line 2420, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .points img {
+      width: 20%; }
+  /* line 2425, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .cta-block div {
+    margin-bottom: 20px; }
+  /* line 2432, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .item-icon-left img {
+    width: 25px; }
+  /* line 2436, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .h2 {
+    line-height: 1.1; }
+  /* line 2440, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .cta-block {
+    flex-direction: column; }
+    /* line 2442, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .cta-block.master {
+      margin: 25px 0; }
+    /* line 2448, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .cta-block .number {
+      float: none;
+      top: 10px;
+      margin-left: 0;
+      /* right: 50%; */
+      width: 100%;
+      display: block; }
+    /* line 2457, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .cta-block img {
+      width: 150px;
+      height: 150px;
+      margin-top: 20px; }
+  /* line 2463, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-block {
+    flex-direction: column; }
+    /* line 2466, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .testimonails-block .picture .name {
+      bottom: 21px;
+      right: -100%; }
+    /* line 2471, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+    .testimonails-block .test-info {
+      margin-top: 10px;
+      justify-content: space-between; }
+  /* line 2476, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  .testimonails-answer {
+    width: 100%; }
+  /* line 2482, C:/Users/guban/Google Диск/banana-studio/Проекты/StudioBl/assets/css/style.scss */
+  #review_form input.pricebutton {
+    width: 95%; } }
+
+/*# sourceMappingURL=style.css.map */
