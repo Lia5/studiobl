@@ -2320,12 +2320,15 @@ tr:hover {
   text-align: right;
   position: relative;
   z-index: 9;
+  text-align: center;
 }
-
 .application-form p a {
   padding-left: 50px;
   font-size: 24px;
   color: #00ac4d;
+}
+#application-form .otz{
+  line-height: 1.2;
 }
 .application-form-item input {
   height:30px;
@@ -2347,6 +2350,4 @@ tr:hover {
 #application-form .crud_form {
   padding-bottom: 2px;
 }
-#application-form .otz{
-  line-height: 1.2;
-}
+
