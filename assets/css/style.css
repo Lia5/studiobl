@@ -2304,3 +2304,49 @@ tr:hover {
     width: 95%; } }
 
 /*# sourceMappingURL=style.css.map */
+
+/*форма-заявка*/
+.application-form {
+  width: 90%;
+  margin: 50px 0px;
+  position: relative;
+  z-index: 9;
+  right: 35px;
+  float: right;
+}
+.application-form p {
+  font-size: 18px;
+  color: #8f8f8f;
+  text-align: right;
+  position: relative;
+  z-index: 9;
+}
+
+.application-form p a {
+  padding-left: 50px;
+  font-size: 24px;
+  color: #00ac4d;
+}
+.application-form-item input {
+  height:30px;
+  font-size:24px;
+  width:410px;
+}
+#application-form b {
+  line-height: 40px;
+}
+#application-form .choice-estetic-items {
+  width: 99%;
+  height: 40px;
+}
+
+#application-form .pricebutton {
+  line-height: 32px;
+  margin-top: 20px;
+}
+#application-form .crud_form {
+  padding-bottom: 2px;
+}
+#application-form .otz{
+  line-height: 1.2;
+}

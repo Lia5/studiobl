@@ -28,7 +28,64 @@
 ​<p style="text-align: center;">
     <a class="pricebutton" href="/uslugi/ceny-na-uslugi#estkosm">Цены на все услуги</a>
 </p>
-<div class="info"><p> Запишитесь на эту услугу<a class="popup" href="#inline">Отправить форму!</a></p></div>
+<!--вставка формы-заявки-->
+
+
+
+<div class="application-form">
+    <p> Запишитесь на эту услугу!<a class="popup" href="#application-form">Отправить форму</a></p>
+</div>
+
+<div id="application-form" style="display:none" ;><br>
+  <div class="otz">Отправить форму-заявку на услугу</div>
+  <form class="crud_form">
+    <!-- Hidden Required Fields -->
+    <input type="hidden" name="project_name" value="Сайт studiobl">
+    <input type="hidden" name="admin_email" value="liaforweb@gmail.com">
+    <input type="hidden" name="form_subject" value="Запись на услугу">
+    <input type="hidden" name="Название услуги" value="Эстетическая косметология">
+    <!-- END Hidden Required Fields -->
+    <small>Все поля обязательны для заполнения</small><br><br>
+     <label class="application-form-item">
+      <b>Введите ваше имя</b><br>
+      <input type="text" name="Имя" placeholder="" required>
+    </label><br>
+    <label class="application-form-item">
+      <b>Введите ваш телефон</b><br>
+      <input type="text" class="phone-mask" name="Телефон" placeholder="" required>
+    </label><br>
+   <b>Выберете вид эстетической услуги:</b><br>
+    <select class="choice-estetic-items" name="Вид эстетической косметологии" required>
+      <option value="Окрашивание бровей">Окрашивание бровей</option>
+      <option value="Окрашивание ресниц">Окрашивание ресниц</option>
+      <option value="Кораловый пиллинг">Кораловый пиллинг</option>
+      <option value="Уход (Janssen)">Уход (Janssen)</option>
+      <option value="Коррекция бровей">Коррекция бровей</option>
+      <option value="Пилинг с фруктовыми">Пилинг с фруктовыми</option>
+      <option value="Пилинг Джеснера">Пилинг Джеснера</option>
+      <option value="Хиромассаж">Хиромассаж</option>
+      <option value="Наращивание ресниц">Наращивание ресниц</option>
+      <option value="Пилинг о гликолевой">Пилинг о гликолевой</option>
+      <option value="Чистка лица">Чистка лица</option>
+    </select><br>
+    <button class="pricebutton">Отправить</button>
+  </form>
+</div>
+
+
+
+<form>
+   
+  
+    
+    <input type="text" name="E-mail" placeholder="Введите ваш email" required><br>
+    
+    
+    <textarea id="address" name="address" rows="10" placeholder="Ваше сообщение" required></textarea>
+    
+  </form>
+<!--конец формы-заявки-->
+
 </div></div>
 <div class="clr"></div></div></div>
 
@@ -232,4 +289,12 @@ $(document).ready(function () {
 });
 </script><script type='text/javascript'>
 (function(){ var widget_id = '9ZPFd16R9r';
-var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script></body></html>
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+
+<!--Подключение маски-->
+
+  <script src="assets/js/maskedinput.js"></script> 
+  <script src="assets/js/send-forms.js"></script>
+
+
+</body></html>
