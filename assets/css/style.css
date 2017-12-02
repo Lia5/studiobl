@@ -2306,34 +2306,17 @@ tr:hover {
 /*# sourceMappingURL=style.css.map */
 
 /*форма-заявка*/
-.application-form {
-  width: 90%;
-  margin: 50px 0px;
-  position: relative;
-  z-index: 9;
-  right: 35px;
-  float: right;
-}
-.application-form p {
-  font-size: 18px;
-  color: #8f8f8f;
-  text-align: right;
-  position: relative;
-  z-index: 9;
-  text-align: center;
-}
-.application-form p a {
-  padding-left: 50px;
-  font-size: 24px;
-  color: #00ac4d;
-}
-#application-form {
+
+#application-form, 
+#notification-form  {
   padding: 5px
 }
-#application-form .otz{
+#application-form .otz,
+#notification-form .otz{
   line-height: 1.2;
 }
-.application-form-item input {
+.application-form-item input,
+.notification-form-item input {
   height:30px;
   font-size:24px;
   width:99%;
@@ -2343,19 +2326,22 @@ tr:hover {
   box-sizing: border-box;
 
 }
-#application-form b {
+#application-form b,
+#notification-form b {
   line-height: 40px;
 }
-#application-form .choice-items {
+#application-form .choice-items,
+#notification-form .choice-items {
   width: 99%;
   height: 40px;
 }
-
-#application-form .pricebutton {
+#application-form .pricebutton,
+#notification-form .pricebutton {
   line-height: 32px;
   margin-top: 20px;
 }
-#application-form .crud_form {
+#application-form .crud_form,
+#notification-form .crud_form {
   padding-bottom: 2px;
 }
 

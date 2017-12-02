@@ -35,7 +35,6 @@
 <div id="application-form"><br>
   <div class="otz">Отправить форму-заявку на услугу</div>
   <div id="messegeResult">
-    <p> Задайте нам вопрос и мы свяжемся с вами </p>
   </div>
   <form class="crud_form">
     <!-- Hidden Required Fields -->
@@ -71,6 +70,44 @@
   </form>
 </div>
 
+
+<div id="notification-form"><br>
+  <div class="otz">Оповестите меня, если цена снизится!</div>
+  <div id="messegeResult">
+  </div>
+  <form class="crud_form">
+    <!-- Hidden Required Fields -->
+    <input type="hidden" name="project_name" value="Сайт studiobl">
+    <input type="hidden" name="admin_email" value="liaforweb@gmail.com">
+    <input type="hidden" name="form_subject" value="Оповестить, когда цена снижется">
+    <input type="hidden" name="Название услуги" value="Эстетическая косметология">
+    <!-- END Hidden Required Fields -->
+    <small>Все поля обязательны для заполнения</small><br><br>
+     <label class="notification-form-item">
+      <b>Введите ваше имя</b><br>
+      <input type="text" name="Имя" placeholder="" required>
+    </label><br>
+    <label class="notification-form-item">
+      <b>Введите ваш телефон</b><br>
+      <input type="text" class="phone-mask" name="Телефон" placeholder="" required>
+    </label><br>
+   <b>Выберете вид эстетической услуги:</b><br>
+    <select class="choice-items" name="Вид эстетической косметологии" required>
+      <option value="Окрашивание бровей">Окрашивание бровей</option>
+      <option value="Окрашивание ресниц">Окрашивание ресниц</option>
+      <option value="Кораловый пиллинг">Кораловый пиллинг</option>
+      <option value="Уход (Janssen)">Уход (Janssen)</option>
+      <option value="Коррекция бровей">Коррекция бровей</option>
+      <option value="Пилинг с фруктовыми">Пилинг с фруктовыми</option>
+      <option value="Пилинг Джеснера">Пилинг Джеснера</option>
+      <option value="Хиромассаж">Хиромассаж</option>
+      <option value="Наращивание ресниц">Наращивание ресниц</option>
+      <option value="Пилинг о гликолевой">Пилинг о гликолевой</option>
+      <option value="Чистка лица">Чистка лица</option>
+    </select><br>
+    <button class="pricebutton">Узнать о скидке</button>
+  </form>
+</div>
 <!--конец формы-заявки-->
 
 </div></div>
