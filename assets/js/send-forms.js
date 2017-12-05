@@ -8,7 +8,7 @@ $(document).ready(function() {
           url: "../../mail.php", //Change
           data: th.serialize()
         }).done(function() {
-          alert("Благодарим за Вашу заявку!");
+          $('.application-form__done').removeClass('hide');
           setTimeout(function() {
             // Done Functions
             th.trigger("reset");
@@ -17,6 +17,9 @@ $(document).ready(function() {
         return false;
       });
     }
+    $('.application-form__done__close').click(function() {
+      $('.application-form__done').addClass('hide');
+    });
       //E-mail Ajax Send
     if(jQuery('#notification-form').length) {
       $("#notification-form form").submit(function() { //Change
@@ -26,7 +29,7 @@ $(document).ready(function() {
           url: "../../mail.php", //Change
           data: th.serialize()
         }).done(function() {
-          alert("Мы вас оповестим, если цена на услугу будет снижена!");
+          $('.application-form__done').removeClass('hide');
           setTimeout(function() {
             // Done Functions
             th.trigger("reset");
@@ -35,7 +38,9 @@ $(document).ready(function() {
         return false;
       });
     }
-    
+    $('.notification-form__done__close').click(function() {
+      $('.notification-form__done').addClass('hide');
+    });
     });
 
     //select-number form
