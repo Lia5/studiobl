@@ -2441,3 +2441,232 @@ transform: rotate(-45deg);
 .hide {
   display: none;
 }
+
+
+
+
+/*sovest*/
+body {
+  min-width: 100%;/*или записать это свойство в медиа 1024 и 680*/
+}
+.sovest__resize {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.sovest__block {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1020px;
+  font-size: 18px;
+  line-height: 1.8;
+  justify-content: center;
+  align-items: center;
+}
+.sovest__block h1 {
+  width: 100%;
+}
+.sovest__block__logo {
+  width: 25%;
+  text-align: center;
+}
+.sovest__block__text {
+  width: 75%;
+}
+.sovest__logo-img {
+  display: block;
+  width: 192px;
+  height: 55px;
+  margin: 0 auto;
+}
+.sovest__logo-text {
+    display: block;
+    margin: 0;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/*sovest__landing*/
+.sovest__block {
+  margin-top: 20px;
+}
+.sovest__landing {
+  width: 100%;
+}
+.sovest__title {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+.sovest__subtitle-wrap {
+  width: 520px;
+  margin: 0 auto 35px;
+  text-align: center;
+}
+.sovest__landing__benefits__twin-wrap {
+  width: 880px;
+  display: flex;
+  justify-content: center;
+}
+.sovest__landing__benefits__twin--right {
+  width: 52%;
+}
+.sovest__landing__benefits__twin--left {
+  padding-top: 20px;
+  width: 48%;
+}
+.sovest__landing__benefits__twin img {
+  width: 100%;
+}
+
+.sovest__landing__benefits__items{
+  list-style: none;
+}
+.sovest__item {
+  margin-bottom: 34px;
+  position: relative;
+  padding-left: 70px;
+  font-size: 20px;
+  line-height: 24px;
+  vertical-align: top;
+}
+.sovest__item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  opacity: .7;
+}
+.sovest__landing__benefits__item--rubls-zero:before {
+  background: url(../images/sovest/rubls-zero.svg) 5px 3px/46px 40px no-repeat;
+}
+.sovest__landing__benefits__item--nopay:before {
+  background: url(../images/sovest/nopay.svg) 5px 3px/46px 40px no-repeat;
+}
+.sovest__landing__benefits__item--365:before {
+  background: url(../images/sovest/365.svg) 5px 3px/46px 40px no-repeat;
+}
+.sovest__landing__benefits__item--money:before {
+  background: url(../images/sovest/money.svg) 5px 3px/46px 40px no-repeat;
+}
+/**/
+.sovest__landing__c__items {
+  list-style: none;
+  text-align: center;
+}
+.sovest__landing__item--mail:before {
+  background: url(../images/sovest/mail.svg) 2px 3px/47px 39px no-repeat;
+}
+.sovest__landing__item--hour:before {
+  background: url(../images/sovest/hour.svg) 2px 3px/47px 39px no-repeat;
+}
+.sovest__landing__item--category:before {
+  background: url(../images/sovest/category.svg) 2px 3px/47px 39px no-repeat;
+}
+.sovest__landing__item--good:before {
+  background: url(../images/sovest/good.svg) 2px 3px/47px 39px no-repeat;
+}
+.sovest__landing__c__items .sovest__item {
+  display: inline-block;
+  width: 39%;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .sovest__resize {
+    padding: 15px;
+  }
+  .sovest__block__logo {
+    width: 50%;
+  }
+  .sovest__block__text {
+    width: 50%;
+  }
+  .sovest__subtitle-wrap {
+    width: 100%;
+  }
+  .sovest__landing__benefits__twin-wrap {
+    width: 100%;
+  }
+  .sovest__landing__benefits__twin-wrap {
+    flex-wrap: wrap;
+  }
+  .sovest__landing__benefits__twin--right {
+    width: 70%;
+    order: -1;
+  }
+  .sovest__landing__benefits__twin--left {
+    width: 100%;
+  }
+  .sovest__item {
+    display: inline-block;
+    width: 39%;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .sovest__block__logo {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .sovest__block__text {
+    width: 100%;
+  }
+  .sovest__landing__benefits__twin-wrap {
+    flex-wrap: wrap;
+  }
+  .sovest__subtitle-wrap {
+    width: 100%;
+  }
+  .sovest__landing__benefits__twin-wrap {
+    width: 100%;
+  }
+  .sovest__landing__benefits__twin--right {
+    width: 80%;
+  }
+  .sovest__landing__benefits__twin--left {
+    width: 80%;
+  }
+  .sovest__item {
+    padding-left: 0;
+    padding-top: 55px;
+    width: 49%;
+    text-align: center;
+    font-size: 17px;
+  }
+  .sovest__item:before{
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .sovest__landing__c__items .sovest__item {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 380px) {
+  .sovest__subtitle-wrap {
+    width: 100%;
+  }
+  .sovest__landing__benefits__twin-wrap {
+    width: 100%;
+  }
+  .sovest__item {
+    width: 100%;
+  }
+  .sovest__landing__c__items .sovest__item {
+    width: 100%;
+  }
+}
+
+
+
+/*end sovest*/
