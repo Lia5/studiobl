@@ -2577,6 +2577,80 @@ body {
   width: 39%;
   text-align: left;
 }
+/**/
+.sovest__app-wrap {
+  display: flex;
+  justify-content: center;
+}
+.sovest__app {
+  width: 40%;
+  padding: 5%;
+}
+.sovest__app-bubble {
+  position: relative;
+  width: 228px;
+  background-color: #e6e5eb;
+  border-radius: 22px;
+  margin-left: auto;
+  padding: 25px;
+  line-height: 1.4;
+}
+.sovest__app-bubble--left {
+  position: absolute;
+  left: -2px;
+  bottom: -5px;
+  width: 15px;
+  height: 15px;
+  background-color: #e6e5eb;
+  -webkit-transform: rotate(32deg);
+  -moz-transform: rotate(32deg);
+  transform: rotate(32deg);
+}
+.sovest__app-bubble--right {
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  -webkit-transform: rotate(68deg);
+  -moz-transform: rotate(68deg);
+  transform: rotate(68deg);
+}
+.sovest__card-order__item {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+}
+.sovest__card-order__item-icon {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 75px;
+  margin: 0 auto 8px;
+  opacity: .7;
+}
+.sovest__card-order__item-icon--pc {
+  background-image: url(../images/sovest/pc.svg);
+  background-size: auto 52px;
+}
+.sovest__card-order__item-icon--smile {
+  background-image: url(../images/sovest/smile.svg);
+  background-size: auto 48px;
+}
+.sovest__card-order__item-icon--mapmarker {
+  background-image: url(../images/sovest/mapmarker.svg);
+  background-size: auto 53px;
+}
+.sovest__card-order__item-text {
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
 
 
 @media screen and (max-width: 1024px) {
@@ -2650,6 +2724,15 @@ body {
   }
   .sovest__landing__c__items .sovest__item {
     text-align: center;
+  }
+  .sovest__app-wrap {
+    flex-wrap: wrap;
+  }
+  .sovest__app {
+    width: 100%;
+  }
+  .sovest__card-order__item {
+    width: 100%;
   }
 }
 @media screen and (max-width: 380px) {
