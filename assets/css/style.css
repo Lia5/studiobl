@@ -2545,6 +2545,7 @@ body {
 }
 .sovest__landing__benefits__item--rubls-zero:before {
   background: url(../images/sovest/rubls-zero.svg) 5px 3px/46px 40px no-repeat;
+  fill: red;
 }
 .sovest__landing__benefits__item--nopay:before {
   background: url(../images/sovest/nopay.svg) 5px 3px/46px 40px no-repeat;
@@ -2649,7 +2650,26 @@ body {
   line-height: 1.2;
   text-align: center;
 }
-
+.sovest__buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 55px;
+}
+.sovest__btn {
+  display: block;
+  padding: 11px 50px 12px 50px;
+  margin: 20px;
+  cursor: pointer;
+  width: 100px;
+  border: none;
+  text-align: center;
+  background: #008133;
+  font: normal 16px/16px 'PT Serif',Tahoma;
+  color: #ffffff;
+  border-radius: 12px;
+  text-decoration: none;
+}
 
 
 
