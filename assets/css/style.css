@@ -2670,7 +2670,9 @@ body {
   border-radius: 12px;
   text-decoration: none;
 }
-
+.sovest__btn:hover {
+  background: #00ad4d;
+}
 
 
 @media screen and (max-width: 1024px) {
