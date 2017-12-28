@@ -2466,11 +2466,15 @@ body {
   width: 100%;
 }
 .sovest__block__logo {
-  width: 25%;
+  width: 33%;
   text-align: center;
 }
 .sovest__block__text {
-  width: 75%;
+  width: 67%;
+  text-align: justify;
+}
+.sovest__block>p {
+  text-align: justify;
 }
 .sovest__logo-img {
   display: block;
@@ -2775,3 +2779,180 @@ body {
 
 
 /*end sovest*/
+/*popup sovest*/
+
+#sovest__parent_popup{
+  background-color: rgba(255, 255, 255, 0.8);
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#sovest__popup{
+  background: rgba(0, 0, 0, 0.7);
+  width: 950px;
+  margin: 18% auto;
+  padding: 20px;
+  position: relative;
+  color: #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+   border-radius: 10px;
+}
+#sovest__popup span {
+  font-size: 24px;
+}
+.sovest__close {
+  position: absolute;
+  right: 14px;
+  top: -27px;
+  width: 24px;
+  height: 24px;
+  opacity: 0.3;
+  }
+  .sovest__close:hover {
+  opacity: 1;
+  cursor: pointer;
+  }
+  .sovest__close:before, 
+  .sovest__close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 25px;
+  width: 2px;
+  background-color: #000000;
+  }
+  .sovest__close:before {
+  transform: rotate(45deg);
+  }
+  .sovest__close:after {
+  transform: rotate(-45deg);
+  }
+  .sovest__popup__title {
+    font-size: 36px;
+    line-height: 1.2;
+    border-bottom: 2px solid #4f9e4e;
+  }
+  .sovest__popup__description {
+    font-size: 26px;
+    line-height: 1.2;
+    position: relative;
+    padding: 25px 340px 90px 15px;
+  }
+  
+  .sovest__popup__wtsapp {
+    color: #00ce59;
+    font-size: 24px;
+  }
+  .popup-img {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    width: 254px;
+  }
+  .popup-img img {
+    width: 100%;
+  }
+  .sovest__main__btn {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #4da958;
+    border-radius: 15px;
+    padding: 12px 50px;
+    text-decoration: none;
+  }
+  .sovest__main__btn:hover {
+    background-color: #55B660;
+  }
+  .sovest__btns {
+    display: flex;
+  }
+  .sovest__btns__wrapper {
+    padding-left: 20px;
+  }
+
+@media screen and (max-width: 1200px) {
+  #sovest__popup{
+    width: 89%;
+  }
+  .sovest__popup__description {
+    padding-right: 267px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #sovest__popup{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    height: 100vh;
+    padding: 6% 3%;
+    margin: 0;
+    border-radius: 0;
+  }
+  .sovest__popup__description {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .popup-img {
+    position: static;
+    margin: 20px auto;
+  }
+  .sovest__close {
+    top: 10px;
+
+  }
+  .sovest__close:before, .sovest__close:after {
+    background-color: #ffffff;
+  }
+  #sovest__parent_popup {
+    height: 100vh;
+  }
+  .sovest__btns {
+    flex-direction: column;
+  }
+  .sovest__btns a {
+    width: 215px;
+    margin: 0 auto;
+  }
+  .sovest__btns__wrapper {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+}
+@media screen and (max-width: 360px) {
+
+  .sovest__popup__title {
+    font-size: 28px;
+  }
+  .sovest__popup__description {
+    font-size: 18px;
+  }
+  .popup-img {
+    width: 185px;
+    margin: 12px auto;
+  }
+  .sovest__btns a {
+    width: auto;
+  }
+  .sovest__main__btn {
+    font-size: 19px;
+  }
+  .sovest__popup__wtsapp {
+    font-size: 17px;
+  }
+  #sovest__popup span {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 320px) {
+
+}
+
+/*end popup sovest*/
