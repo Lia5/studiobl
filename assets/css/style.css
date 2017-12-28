@@ -2792,9 +2792,12 @@ body {
   left: 0;
 }
 #sovest__popup{
+  
   background: rgba(0, 0, 0, 0.7);
   width: 950px;
   margin: 18% auto;
+  margin-right: 0;
+  margin-left: auto;
   padding: 20px;
   position: relative;
   color: #ffffff;
