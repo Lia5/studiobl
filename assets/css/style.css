@@ -2493,6 +2493,69 @@ body {
     text-transform: uppercase;
     white-space: nowrap;
 }
+/*choice*/
+
+.choice-resize {
+  padding: 15px;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.choice {
+  display: flex;
+}
+.choice-title {
+  font-size: 43px;
+}
+.choice-title:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  background: url(../images/sovest/more.png) 5px 3px/46px 40px no-repeat;
+}
+/*tabs*/
+#tab2, #tab3, #tab4 {
+  position: fixed; 
+}
+#tab2,
+
+.tabs > div,
+.tabs #tab2:target ~ div:nth-of-type(1) {
+  display: none; 
+}
+.tabs > div:nth-of-type(1),
+.tabs #tab2:target ~ div:nth-of-type(2)  { 
+  display: block; 
+}
+
+.tabs__controls-item {
+  display: inline-block;
+  margin-left: 10px;
+}
+.tabs__controls-item:hover,
+.tabs__controls-active {
+  background-color: yellow;
+}
+.tabs__control-link {
+  text-transform: uppercase;
+  display: block;
+  padding: 3px 7px;
+}
+.tabs__list {
+  border: 1px solid black;
+}
+.tabs__item {
+  list-style: none outside none;
+  display: none;
+}
+.tabs__item.active {
+  display: block;
+}
+
+
+
 
 /*sovest__landing*/
 .sovest__block {
