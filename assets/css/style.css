@@ -2557,8 +2557,8 @@ body {
 }
 .tabs__controls-item:hover,
 .tabs__controls-active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .tabs__control-link {
   display: block;
@@ -3125,18 +3125,17 @@ body {
   bottom: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  width: 950px;
+  width: 486px;
   margin-top: auto;
   margin-left: auto;
-  padding: 20px;
-
+  padding: 15px;
   color: #ffffff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-   border-radius: 10px;
+  border-radius: 10px;
 }
 #sovest__popup span {
-  font-size: 24px;
+  font-size: 18px;
 }
 .sovest__close {
   position: absolute;
@@ -3166,36 +3165,36 @@ body {
   transform: rotate(-45deg);
   }
   .sovest__popup__title {
-    font-size: 36px;
+    font-size: 24px;
     line-height: 1.2;
     border-bottom: 2px solid #4f9e4e;
   }
   .sovest__popup__description {
-    font-size: 26px;
-    line-height: 1.2;
+    font-size: 19px;
+    line-height: 1.3;
     position: relative;
-    padding: 25px 340px 90px 15px;
+    padding: 27px 209px 51px 0px;
   }
   
   .sovest__popup__wtsapp {
     color: #00ce59;
-    font-size: 24px;
+    font-size: 19px;
   }
   .popup-img {
     position: absolute;
     right: 0;
     top: 25px;
-    width: 254px;
+    width: 196px;
   }
   .popup-img img {
     width: 100%;
   }
   .sovest__main__btn {
-    font-size: 25px;
+    font-size: 18px;
     color: #ffffff;
     background-color: #4da958;
     border-radius: 15px;
-    padding: 12px 50px;
+    padding: 12px 23px;
     text-decoration: none;
   }
   .sovest__main__btn:hover {
@@ -3209,12 +3208,8 @@ body {
   }
 
 @media screen and (max-width: 1200px) {
-  #sovest__popup{
-    width: 89%;
-  }
-  .sovest__popup__description {
-    padding-right: 267px;
-  }
+  
+  
 }
 
 @media screen and (max-width: 720px) {
