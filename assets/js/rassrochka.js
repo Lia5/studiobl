@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 
 $('.minus').click(function() {
     $(this).parent().siblings().toggleClass('rassrochka__close');
@@ -9,3 +9,4 @@ $('.minus').click(function() {
     $(this).parent().siblings().removeClass('rassrochka__close');
     $(this).removeClass('plus-open');
   });
+});

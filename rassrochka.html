@@ -251,19 +251,57 @@
                   </h3>
                   <table class="block-on-off">
                     <tr>
-                      <td width="70%">
-                        Период рассрочки
-                      </td>
-                      <td><strong>до 12 месяцев</strong></td>
+                      <td class="tarifs__name">Период рассрочки</td>
+                      <td class="tarifs__value"><strong>до 12 месяцев</strong></td>
                     </tr>
                     <tr>
-                      <td width="70%">
-                        Ставка за пользование рассрочкой
-                      </td>
-                      <td><strong>0% годовых</strong></td>
+                      <td class="tarifs__name">Ставка за пользование рассрочкой</td>
+                      <td class="tarifs__value"><strong>0% годовых</strong></td>
                     </tr>
-
-
+                    <tr>
+                      <td class="tarifs__name">Максимальная сумма лимита</td>
+                      <td class="tarifs__value"><strong>350 000 рублей</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Начисления на остаток собственных средств</td>
+                      <td class="tarifs__value"><strong>до 8,25% годовых</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Кэшбек</td>
+                      <td class="tarifs__value"><strong>1,5% на любую покупку собственными средствами внутри партнёрской сети (не более 5000 рублей в месяц)</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Плата за выпуск/плановый перевыпуск и обслуживание карты</td>
+                      <td class="tarifs__value"><strong>отсутствует</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Сервис sms-информирования</td>
+                      <td class="tarifs__value"><strong>бесплатно</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Сервисы дистанционного обслуживания: личный кабинет и мобильное приложение</td>
+                      <td class="tarifs__value"><strong>бесплатно</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Пополнение счёта</td>
+                      <td class="tarifs__value"><strong>бесплатно</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Комиссия за досрочное погашение платежей</td>
+                      <td class="tarifs__value"><strong>отсутствует</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Срок действия карты</td>
+                      <td class="tarifs__value"><strong>10 лет</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Тип карты</td>
+                      <td class="tarifs__value"><strong>MasterCard World</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Штрафные санкции за несвоевременное погашение обязательного платежа</td>
+                      <td class="tarifs__value"><strong>0,1% на сумму просроченной задолженности, за каждый календарный день просрочки</strong></td>
+                    </tr>
 
 
                   </table>
@@ -272,25 +310,39 @@
                   <h3 class="tarifs__title">
                     Особенности карты рассрочки
                     <span class="minus"></span>
-                    <span class="plus"></span>
+                    <span class="plus plus-open"></span>
                   </h3>
                   <table class="block-on-off rassrochka__close">
                     <tr>
-                      <td width="70%">
-                        Период рассрочки
-                      </td>
-                      <td><strong>до 12 месяцев</strong></td>
+                      <td class="tarifs__name">Снятие наличных денежных средств</td>
+                      <td class="tarifs__value"><strong>бесплатно, в любых банкоматах и устройствах самообслуживания, в сумме, не превышающей сумму собственных денежных средств, размещённых сверх лимита кредитования</strong></td>
+                    </tr>
+                  </table>
+                </li>
+                <li>
+                  <h3 class="tarifs__title">
+                    Особенности кредитной карты
+                    <span class="minus"></span>
+                    <span class="plus plus-open"></span>
+                  </h3>
+                  <table class="block-on-off rassrochka__close">
+                    <tr>
+                      <td class="tarifs__name">Ставка при невыполнении условий рассрочки</td>
+                      <td class="tarifs__value"><strong>19,9% годовых </strong></td>
                     </tr>
                     <tr>
-                      <td width="70%">
-                        Ставка за пользование рассрочкой
-                      </td>
-                      <td><strong>0% годовых</strong></td>
+                      <td class="tarifs__name">Платежи по кредиту</td>
+                      <td class="tarifs__value"><strong>Платёж по рассрочке: сумма платежей, подлежащих гашению по результам отчётного периода.
+                        Минимальный обязательный платёж: 7% от остатка ссудной задолженности</strong></td>
                     </tr>
-                    
-
-
-
+                    <tr>
+                      <td class="tarifs__name">Снятие наличных за счет собственных средств Клиента</td>
+                      <td class="tarifs__value"><strong>бесплатно, в любых банкоматах и устройствах самообслуживания</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="tarifs__name">Снятие заёмных средств</td>
+                      <td class="tarifs__value"><strong>Не предусмотрено</strong></td>
+                    </tr>
                   </table>
                 </li>
               </ul>
@@ -342,7 +394,8 @@
       var delay_popup = 30000;
       setTimeout("document.getElementById('sovest__parent_popup').style.display='block'", delay_popup);
     </script>
-  <script src="js/rassrochka.js"></script>
+    <script src="assets/js/jquery-1.8.3.min.js"></script> >
+  <script  language="JavaScript" type="text/javascript"  src="assets/js/rassrochka.js"></script>
 
     
 </body>

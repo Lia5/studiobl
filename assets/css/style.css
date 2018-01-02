@@ -2968,11 +2968,40 @@ body {
   list-style: none;
   width: 100%;
 }
+
 .tarifs__items table {
   width: 100%;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  background-color: #f4f3f3;
 }
+.tarifs__items td {
+  border-bottom: 1px solid #b3b3b3;
+  border-left: 1px solid #b3b3b3;
+  padding: 5px;
+
+}
+.tarifs__items td:first-child {
+  border-left: none;
+}
+.tarifs__items tr:last-child  td {
+  border-bottom: none;
+}
+.tarifs__name {
+  width: 35%;
+}
+.tarifs__value {
+  text-align: right;
+}
+
 .tarifs__title {
+  width: 92%;
   position: relative;
+  padding: 15px 6% 15px 2%;
+  font-size: 27px;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 173, 75, 0.45);
 }
 .minus {
   background: #ffffff;
