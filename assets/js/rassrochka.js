@@ -1,12 +1,7 @@
-$(document).ready(function() {
 
-$('.minus').click(function() {
-    $(this).parent().siblings().toggleClass('rassrochka__close');
-    $(this).siblings().toggleClass('plus-open');
+
+$('.tarifs__title').click(function() {
+    $(this).children('.plus').toggleClass('plus-open');
+    $(this).siblings('.block-on-off').toggleClass('rassrochka__close');
 });
   
-  $('.plus').click(function() {
-    $(this).parent().siblings().removeClass('rassrochka__close');
-    $(this).removeClass('plus-open');
-  });
-});

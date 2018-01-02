@@ -2971,13 +2971,14 @@ body {
 
 .tarifs__items table {
   width: 100%;
-  border-collapse: collapse;
   border-spacing: 2px;
-  background-color: #f4f3f3;
+  border-collapse: separate;
+  border: solid 1px green;
+  transition: height .3s;
 }
 .tarifs__items td {
-  border-bottom: 1px solid #b3b3b3;
-  border-left: 1px solid #b3b3b3;
+  
+  border: solid 1px green;
   padding: 5px;
 
 }
@@ -2996,13 +2997,35 @@ body {
 
 .tarifs__title {
   width: 92%;
-  position: relative;
   padding: 15px 6% 15px 2%;
-  font-size: 27px;
-  text-transform: uppercase;
-  border: 1px solid #ffffff;
-  background-color: rgba(0, 173, 75, 0.45);
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  line-height: 1;
+  color: #fff;
+  font-weight: normal;
+  background: #00ae4e;
+  cursor: pointer;
+  position: relative;
+  /* box-shadow: 0px 2px 8px 0px #000; */
+  border-bottom: 1px solid white;
 }
+.tarifs__title:hover {
+  background: rgba(0, 174, 78, 0.95);
+}
+.tarifs__title:before {
+  content: '';
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  left: -4px;
+  top: 0;
+  background: white;
+  transition: all .3s;
+}
+.tarifs__title:hover:before {
+  left: 4px;
+}
+
 .minus {
   background: #ffffff;
   border-radius: 3px;
