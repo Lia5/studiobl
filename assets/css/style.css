@@ -2453,7 +2453,7 @@ body {
   max-width: 1020px;
   margin: 0 auto;
 }
-.sovest__block {
+.rassrochka__block {
   display: flex;
   flex-wrap: wrap;
   max-width: 1020px;
@@ -2462,18 +2462,22 @@ body {
   justify-content: center;
   align-items: center;
 }
-.sovest__block h1 {
+.rassrochka__block h2 {
   width: 100%;
+  font-size: 38px;
+  text-align: center;
+  color: #00ad4d;
 }
-.sovest__block__logo {
+.rassrochka__block__logo {
   width: 33%;
   text-align: center;
+  margin-bottom: 10px;
 }
-.sovest__block__text {
+.rassrochka__block__text {
   width: 67%;
   text-align: justify;
 }
-.sovest__block>p {
+.rassrochka__block>p {
   text-align: justify;
 }
 .sovest__logo-img {
@@ -2499,28 +2503,37 @@ body {
   padding: 15px;
   max-width: 1020px;
   margin: 0 auto;
+  line-height: 1.2;
 }
 .choice {
   display: flex;
 }
 .choice-title {
-  font-size: 43px;
+  font-size: 33px;
 }
 .choice-title:before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 28px;
+  left: 112px;
   width: 34px;
   height: 34px;
-  background: url(../images/sovest/more.png) 5px 3px/46px 40px no-repeat;
+  background: url(../images/rassrochka/more.png) no-repeat;
+}
+.choice-resize__title {
+  font-size: 43px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.rassrochka-img__wrapper img {
+  width: 100%;
 }
 /*tabs*/
 #tab2, #tab3, #tab4 {
   position: fixed; 
 }
 #tab2,
-
 .tabs > div,
 .tabs #tab2:target ~ div:nth-of-type(1) {
   display: none; 
@@ -2529,23 +2542,35 @@ body {
 .tabs #tab2:target ~ div:nth-of-type(2)  { 
   display: block; 
 }
-
+.tabs__controls {
+  text-align: center;
+}
 .tabs__controls-item {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 3s linear;
+}
+.tabs__controls-item a {
+  color: #000000;
+  text-decoration: none;
 }
 .tabs__controls-item:hover,
 .tabs__controls-active {
-  background-color: yellow;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .tabs__control-link {
-  text-transform: uppercase;
   display: block;
   padding: 3px 7px;
+  margin: 0 auto;
 }
-.tabs__list {
-  border: 1px solid black;
+.choice-title {
+  padding: 20px;
+  position: relative;
 }
+
+
 .tabs__item {
   list-style: none outside none;
   display: none;
@@ -2558,13 +2583,13 @@ body {
 
 
 /*sovest__landing*/
-.sovest__block {
+.rassrochka__block {
   margin-top: 20px;
 }
 .sovest__landing {
   width: 100%;
 }
-.sovest__title {
+.rassrochka__title {
   font-size: 34px;
   font-weight: 700;
   text-align: center;
@@ -2593,7 +2618,7 @@ body {
 .sovest__landing__benefits__items{
   list-style: none;
 }
-.sovest__item {
+.rassrochka__item {
   margin-bottom: 34px;
   position: relative;
   padding-left: 70px;
@@ -2601,7 +2626,7 @@ body {
   line-height: 24px;
   vertical-align: top;
 }
-.sovest__item:before {
+.rassrochka__item:before {
   content: "";
   position: absolute;
   top: 0;
@@ -2611,17 +2636,17 @@ body {
   opacity: .7;
 }
 .sovest__landing__benefits__item--rubls-zero:before {
-  background: url(../images/sovest/rubls-zero.svg) 5px 3px/46px 40px no-repeat;
+  background: url(../images/rassrochka/rubls-zero.svg) 5px 3px/46px 40px no-repeat;
   fill: red;
 }
 .sovest__landing__benefits__item--nopay:before {
-  background: url(../images/sovest/nopay.svg) 5px 3px/46px 40px no-repeat;
+  background: url(../images/rassrochka/nopay.svg) 5px 3px/46px 40px no-repeat;
 }
 .sovest__landing__benefits__item--365:before {
-  background: url(../images/sovest/365.svg) 5px 3px/46px 40px no-repeat;
+  background: url(../images/rassrochka/365.svg) 5px 3px/46px 40px no-repeat;
 }
 .sovest__landing__benefits__item--money:before {
-  background: url(../images/sovest/money.svg) 5px 3px/46px 40px no-repeat;
+  background: url(../images/rassrochka/money.svg) 5px 3px/46px 40px no-repeat;
 }
 /**/
 .sovest__landing__c__items {
@@ -2629,18 +2654,18 @@ body {
   text-align: center;
 }
 .sovest__landing__item--mail:before {
-  background: url(../images/sovest/mail.svg) 2px 3px/47px 39px no-repeat;
+  background: url(../images/rassrochka/mail.svg) 2px 3px/47px 39px no-repeat;
 }
 .sovest__landing__item--hour:before {
-  background: url(../images/sovest/hour.svg) 2px 3px/47px 39px no-repeat;
+  background: url(../images/rassrochka/hour.svg) 2px 3px/47px 39px no-repeat;
 }
 .sovest__landing__item--category:before {
-  background: url(../images/sovest/category.svg) 2px 3px/47px 39px no-repeat;
+  background: url(../images/rassrochka/category.svg) 2px 3px/47px 39px no-repeat;
 }
 .sovest__landing__item--good:before {
-  background: url(../images/sovest/good.svg) 2px 3px/47px 39px no-repeat;
+  background: url(../images/rassrochka/good.svg) 2px 3px/47px 39px no-repeat;
 }
-.sovest__landing__c__items .sovest__item {
+.sovest__landing__c__items .rassrochka__item {
   display: inline-block;
   width: 39%;
   text-align: left;
@@ -2698,15 +2723,15 @@ body {
   opacity: .7;
 }
 .sovest__card-order__item-icon--pc {
-  background-image: url(../images/sovest/pc.svg);
+  background-image: url(../images/rassrochka/pc.svg);
   background-size: auto 52px;
 }
 .sovest__card-order__item-icon--smile {
-  background-image: url(../images/sovest/smile.svg);
+  background-image: url(../images/rassrochka/smile.svg);
   background-size: auto 48px;
 }
 .sovest__card-order__item-icon--mapmarker {
-  background-image: url(../images/sovest/mapmarker.svg);
+  background-image: url(../images/rassrochka/mapmarker.svg);
   background-size: auto 53px;
 }
 .sovest__card-order__item-text {
@@ -2746,10 +2771,10 @@ body {
   .sovest__resize {
     padding: 15px;
   }
-  .sovest__block__logo {
+  .rassrochka__block__logo {
     width: 50%;
   }
-  .sovest__block__text {
+  .rassrochka__block__text {
     width: 50%;
   }
   .sovest__subtitle-wrap {
@@ -2768,19 +2793,22 @@ body {
   .sovest__landing__benefits__twin--left {
     width: 100%;
   }
-  .sovest__item {
+  .rassrochka__item {
     display: inline-block;
     width: 39%;
   }
 }
 
 @media screen and (max-width: 706px) {
-  .sovest__block__logo {
+  .rassrochka__block__logo {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .sovest__block__text {
+  .rassrochka__block__text {
+    width: 100%;
+  }
+  .rassrochka-img__wrapper {
     width: 100%;
   }
   .sovest__landing__benefits__twin-wrap {
@@ -2798,20 +2826,20 @@ body {
   .sovest__landing__benefits__twin--left {
     width: 80%;
   }
-  .sovest__item {
+  .rassrochka__item {
     padding-left: 0;
     padding-top: 55px;
     width: 49%;
     text-align: center;
     font-size: 17px;
   }
-  .sovest__item:before{
+  .rassrochka__item:before{
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  .sovest__landing__c__items .sovest__item {
+  .sovest__landing__c__items .rassrochka__item {
     text-align: center;
   }
   .sovest__app-wrap {
@@ -2831,10 +2859,10 @@ body {
   .sovest__landing__benefits__twin-wrap {
     width: 100%;
   }
-  .sovest__item {
+  .rassrochka__item {
     width: 100%;
   }
-  .sovest__landing__c__items .sovest__item {
+  .sovest__landing__c__items .rassrochka__item {
     width: 100%;
   }
 }
@@ -2842,6 +2870,189 @@ body {
 
 
 /*end sovest*/
+/*halva*/
+.rassrochka__block__iems {
+  list-style: none;
+}
+.halva-documents:before {
+  background: url(../images/rassrochka/halva-documents.svg) 5px 3px/46px 40px no-repeat;
+}
+.halva-installment:before {
+  background: url(../images/rassrochka/halva-installment.svg) 5px 3px/46px 40px no-repeat;
+}
+.halva-freefill:before {
+  background: url(../images/rassrochka/halva-freefill.svg) 5px 3px/46px 40px no-repeat;
+}
+.halva-everywhere:before {
+  background: url(../images/rassrochka/halva-everywhere.svg) 5px 3px/46px 40px no-repeat;
+}
+.halva-send:before {
+  background: url(../images/rassrochka/halva-send.svg) 5px 3px/46px 40px no-repeat;
+}
+.rassrochka__block-left {
+  width: 60%;
+}
+.rassrochka__block-right-img {
+  width: 40%;
+}
+.rassrochka__block-right-img img {
+  width: 100%;
+}
+.info__caption {
+  font-size: 35px;
+  line-height: 1.2;
+  text-align: center;
+} 
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.benefits-list__col {
+  width: 33%;
+}
+.benefits-list__item {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.benefits-list__icon  {
+  color: #f26d5f;
+  font-size: 6rem;
+  font-weight: normal;
+}
+.benefits-list__item p {
+  margin: auto;
+}
+.benefits-list__icon sup {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -.6em;
+  font-size: .5em;
+  margin-right: -.6em;
+}
+.benefits-list__icon.icon-plane {
+  position: relative;
+  height: 172px;
+}
+.benefits-list__icon {
+  color: #f26d5f;
+  font-size: 6rem;
+}
+
+.benefits-list__icon.icon-plane:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-size: contain;
+  width: 90px;
+  height: 90px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: url(../images/rassrochka/halva-plane.svg) no-repeat center;
+}
+.rassrochka__block-card2 {
+  width: 43%;
+}
+.rassrochka__block-card2 img {
+  width: 86%;
+}
+.rassrochka__block-right {
+  width: 52%;
+}
+.tarifs__items {
+  list-style: none;
+  width: 100%;
+}
+.tarifs__items table {
+  width: 100%;
+}
+.tarifs__title {
+  position: relative;
+}
+.minus {
+  background: #ffffff;
+  border-radius: 3px;
+  height: 28px;
+  margin: -14px 0 0;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  width: 28px;
+  z-index: 2;
+  cursor: pointer;
+}
+.minus:after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 4px;
+  margin: -2px 0 0;
+  left: 6px;
+  right: 6px;
+  top: 50%;
+  background: #347aa5;
+}
+.plus {
+  display: none;
+  background: #ffffff;
+  border-radius: 3px;
+  height: 28px;
+  margin: -14px 0 0;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  width: 28px;
+  z-index: 2;
+  cursor: pointer;
+}
+.plus:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  margin: 0 0 0 -2px;
+  top: 6px;
+  bottom: 6px;
+  left: 50%;
+  background: #049198;
+}
+.plus:after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 4px;
+  margin: -2px 0 0;
+  left: 6px;
+  right: 6px;
+  top: 50%;
+  background: #049198;
+}
+.rassrochka__close {
+  display: none;
+}
+.plus-open {
+  display: block;
+}
+@media screen and (max-width: 706px) {
+  .benefits-list__col {
+    width: 49%;
+  }
+
+}
+@media screen and (max-width: 380px) {
+  .benefits-list__col {
+    width: 90%;
+  }
+}
+
+
+
+/*end halva*/
 /*popup sovest*/
 
 #sovest__parent_popup{

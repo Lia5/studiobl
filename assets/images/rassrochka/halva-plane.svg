@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="87px" height="69px" viewBox="0 0 87 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>plane</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI-&amp;-elements" sketch:type="MSArtboardGroup" transform="translate(-324.000000, -4103.000000)" stroke="#F26D5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M406.751086,4105.43432 L353.382136,4136.2479 L406.751086,4105.43432 Z M325,4116.01914 L409.236217,4104 L356.708427,4170.94001 L353.757974,4141.93404 L353.627581,4136.67487 L353.190382,4136.35783 L353.134134,4135.82092 L348.644536,4133.08012 L325,4116.01914 L325,4116.01914 Z" id="plane" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
