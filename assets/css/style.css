@@ -2983,12 +2983,6 @@ body {
   padding: 5px;
 
 }
-.tarifs__items td:first-child {
-  border-left: none;
-}
-.tarifs__items tr:last-child  td {
-  border-bottom: none;
-}
 .tarifs__name {
   width: 35%;
 }

@@ -1,0 +1,311 @@
+
+    
+    <div class="footer">
+    	<div class="resize">
+            <a href="tel:84956695750" class="number xs-show">{{ variables:landline_phone }}</a>
+        	<div class="social">
+            	<p>Мы в социальных сетях  <br class="xs-show">
+                    <a rel="nofollow" href="{{ variables:facebook }}" class="facebook"><img src="/assets/images/social/spacer.png" width="34" height="33" alt="social" /></a>
+                    <a rel="nofollow" class="vk" href="{{ variables:vk }}"><img src="/assets/images/social/spacer.png" width="34" height="33" alt="social" /></a>
+                    <a rel="nofollow" class="o" href="{{ variables:odnoklassniki }}"><img src="/assets/images/social/spacer.png" width="34" height="33" alt="social" /></a>
+                    <a rel="nofollow" class="t" href="{{ variables:twitter }}"><img src="/assets/images/social/spacer.png" width="34" height="33" alt="social" /></a>
+                    <a rel="nofollow" class="ig" href="http://instagram.com/studiobl"><img src="/assets/images/social/spacer.png" width="34" height="33" alt="social" /></a>
+
+                </p>
+            </div>
+            <!--end of social-->
+            <p class="middle">Косметологический центр Beauty Life © 2011-2017
+            
+           
+            </p>
+            <p class="righter"><a href="/karta-sajta">Карта сайта</a><br><a href="http://www.adving.ru/sozdanie-sajtov.html">Создание сайта</a> — Adving.ru</p>
+        <div class="clr"></div>
+        </div>
+        <!--end of resize-->
+    </div>
+    <!--end of footer-->
+
+   
+    <script>
+    $(document).ready(function() {
+        $(".popup").fancybox({
+            maxWidth    : 800,
+            maxHeight   : 600,
+            fitToView   : false,
+            width       : 420,
+            height      : 550,
+            autoSize    : false,
+            closeClick  : false,
+            openEffect  : 'none',
+            closeEffect : 'none',
+            title: false,
+        });
+
+        $(".testimonials").fancybox({
+            maxWidth    : 800,
+            maxHeight   : 600,
+            fitToView   : false,
+            width       : 420,
+            height      : 440,
+            autoSize    : false,
+            closeClick  : false,
+            openEffect  : 'none',
+            closeEffect : 'none',
+            title: false,
+        });
+
+
+        $(".fancybox").fancybox({
+        openEffect  : 'none',
+        closeEffect : 'none',
+            title: false,
+        });
+    
+      $(".aja-formname").click(function () {
+        $(".aja-formname").toggle("fast");
+        $(".aja-form").toggle("fast");
+      });
+        
+        $(".btn-book").click(function () {
+        $(".aja-formname").toggle("fast");
+        $(".aja-form").toggle("fast");
+             return false;
+      });
+        
+        $(".btn-menu-service").click(function () {
+        $(".left_menu").toggle("fast");
+            return false;
+      });
+        
+        $(".left_menu--close").click(function () {
+        $(".left_menu").toggle("fast");
+        return false;
+      });
+        
+        
+
+      $(".aja-close").click(function () {
+        $(".aja-formname").toggle("slow");
+        $(".aja-form").toggle("slow");
+      });
+        
+       
+  
+if (screen.width < 415) {
+    
+ $(".yButtonText").text("Записаться");
+
+};
+    });
+    </script>
+
+
+
+    <div id="testimonials" style="display:none";><br><div class="otz">Оставить отзыв о нас</div>
+    {{ streams:form stream="testimonials" mode="new" return="testimonials/success" }}
+        {{ form_open }}
+        <b>Отзыв:</b><br>
+        <div style="display:none;"><input type="hidden" name="stream_id" value="8" /></div>
+        <textarea name="testimonial" cols="45" rows="15" id="testimonial" value="" ></textarea>
+        <p>&nbsp;</p>
+        <a href="#" class="sendbutton" onclick="$(this).closest('form').submit()">Отправить</a>
+        {{ form_close }}
+    {{ /streams:form }}
+    </div>
+
+<div id="inline" style="display:none" ;><br>
+    <div class="otz">Спросить специалиста</div>
+    {{ streams:form stream="faq" use_recaptcha="no" mode="new" return="faq/success" }} {{ form_open }}
+    <div>{{ recaptcha_error }}</div>
+    <small>Все поля обязательны для заполнения</small><br><br>
+    <div style="display:none;"><input type="hidden" name="stream_id" value="7" /></div>
+    <b>Вопрос:</b><br>
+    <textarea name="question" cols="45" rows="6" id="question" value=""></textarea>
+    <br><br>
+    <b>E-mail или телефон для связи:</b><br><input style="height:30px;font-size:24px;width:410px;" type="text" name="emailorphone" value="" id="email" /> {{ recaptcha }}
+    <br><br>
+    <a href="#" class=" pricebutton" onclick="$(this).closest('form').submit()">Отправить</a>
+
+    
+    {{ form_close }} {{ /streams:form }}
+
+</div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter23229472 = new Ya.Metrika2({
+                    id:23229472,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/23229472" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48360924-1', 'studiobl.ru');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter24131071 = new Ya.Metrika({id:24131071,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/24131071" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<div class="aja-formname" style="text-transform:uppercase;
+     -webkit-transform: rotate(270deg); /* разворот текста для разных браузеров */
+     -moz-transform: rotate(270deg);
+     -ms-transform: rotate(270deg);
+     -o-transform: rotate(270deg);
+     transform: rotate(270deg);
+/*     writing-mode: tb-rl;*/
+cursor:pointer; position:fixed; overflow:hidden; padding-top:5px; right:-93px; top:310px; width:210px; z-index:11111; height:32px; background:#00ad4d; color:#ffffff; text-align: center; box-shadow:0 2px 15px #aaaaaa; border-radius:12px 12px 0 0 ; font-size:18px;">
+Вызов специалиста
+</div>
+
+<div class="aja-form" >
+<p >Вызов<br />специалиста</p>
+<div class="aja-close">x</div>
+<iframe align="left" frameborder="0" width="300" height="300" src="/_form_studiobl/form-small.php" style="border:none;">Ваш браузер не поддерживает плавающие фреймы!</iframe>
+    </div>
+
+<script>
+$(document).ready(function () {
+    function isLocalStorageAvailable() {
+        try {
+            return 'sessionStorage' in window && window['sessionStorage'] !== null;
+        } catch (e) {
+            return false;
+        }
+    }
+    if (isLocalStorageAvailable()) {
+        if (!sessionStorage.getItem('social-popup1')) {
+            $( ".popup_socials" ).hover(function() {
+            $( ".popup_socials" ).animate({"left":"-5px"}, 600);
+            $( ".popup_socials .ps_close" ).fadeTo(120 , 0);
+             },
+            function(){
+            $( ".popup_socials" ).animate({"left":"-155px"}, 600);
+            $( ".popup_socials .ps_close" ).fadeTo(120 , 1);
+
+});
+        }
+    }
+});
+</script>
+
+<script>
+$(document).ready(function () {
+    function isLocalStorageAvailable() {
+        try {
+            return 'sessionStorage' in window && window['sessionStorage'] !== null;
+        } catch (e) {
+            return false;
+        }
+    }
+    if (isLocalStorageAvailable()) {
+        if (!sessionStorage.getItem('social-popup1')) {
+            setTimeout(function() {
+                $(".popup_socials").animate({"left":"-5px"}, 600);
+                $( ".popup_socials .ps_close" ).fadeTo(120 , 0);
+                $(".popup_socials .ps_close").click(function () {
+                    $(".popup_socials").animate({"left":"-155px"}, 600);
+                    $( ".popup_socials .ps_close" ).fadeTo(120 , 1);
+                    sessionStorage.setItem('social-popup1', true);
+                });
+            }, 60000);
+        }
+    }
+    
+
+    // Отзыв 
+
+	$('#review_form .pricebutton').click(function(){
+		$("#review_form").hide();
+        $.ajax({
+          type: "POST",
+          url: "mail-otz.php",
+          data: $("#review_form").serialize()
+        }).done(function() {
+//          $(this).find("input").val("");
+					// если все прошло хорошо, то скрываем эту форму
+          $("#review_form").hide();
+					// показываем блок с классом .thanks, где можно написать (спасибо за заявку)
+          $(".thanks").show();
+					// сбрасываем поля формы
+          $("#review_form").trigger("reset");
+        });
+        return false;
+	});
+
+   
+    
+});
+</script>
+<!--Подключение маски и формы-->
+
+<script src="/assets/js/maskedinput.js"></script> 
+<script src="/assets/js/send-forms.js"></script>
+
+<!-- hello -->
+<script src="https://my.hellobar.com/671ab21ccce856c36213a45eba9a65fef69c6742.js" type="text/javascript" charset="utf-8" async="async"></script>
+
+
+
+<!-- BEGIN JIVOSITE CODE {literal} 
+<script type='text/javascript'>
+(function(){ var widget_id = '9ZPFd16R9r';
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
+          
+
+           

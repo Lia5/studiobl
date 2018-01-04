@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).ready(function() {
-   
+	
 	$(".contacts .one_third:first-child").click(function() {
 		if($(this).hasClass('active')){ }
 		else {
@@ -38,11 +38,6 @@ $(document).ready(function() {
 	});	
 	
 	
-if(jQuery('.tarifs__title').length) {
-    $('.tarifs__title').click(function() {
-        $(this).children('.plus').toggleClass('plus-open');
-        $(this).siblings('.block-on-off').toggleClass('rassrochka__close');
-    });
-}
+
 
 });
