@@ -375,7 +375,7 @@
             <span> или </span> 
           <a class="sovest__popup__wtsapp"  href="https://api.whatsapp.com/send?phone=79036646767&amp;text=Здравствуйте! Расскажите мне об использовании карт Совесть и Халва." onclick="yaCounter23229472.reachGoal('whatsApp-click'); return true;">Спросить в What&#39;s App</a> <img alt="" src="assets/images/whatsapp.png" style="position: relative; top: 10px;" />
           
-          <a  id="setCookie"  title="Закрыть" href="#" onclick="document.getElementById('sovest__parent_popup').style.display='none'; return false;">X<span class="sovest__close"></span></a>
+          <a  id="setCookie"  title="Закрыть" href="#" onclick="document.getElementById('sovest__parent_popup').style.display='none'; return false;"><span class="sovest__close"></span></a>
          </div>
         
        </div>
@@ -400,7 +400,7 @@
         if ( $.cookie("sovest__popup") == null )  {
           setTimeout(function(){
             $("#sovest__parent_popup").show();
-          }, 4000)
+          }, 15000)
         }  else { $("#sovest__parent_popup").hide();
       }
     });
