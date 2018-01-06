@@ -24,6 +24,7 @@
         <!--end of resize-->
     </div>
     <!--end of footer-->
+
 <!-- rassrochka popup-->
 <div id="sovest__parent_popup">
     <div id="sovest__popup">
@@ -41,17 +42,40 @@
        <a href="http://www.studiobl.ru/rassrochka" class="sovest__main__btn">Узнать о картах</a> 
        <div class="sovest__btns__wrapper">
           <span> или </span> 
-        <a class="sovest__popup__wtsapp"  href="https://api.whatsapp.com/send?phone=79036646767&amp;text=Здравствуйте! Расскажите мне об использовании карт Совесть и Халва." onclick="yaCounter23229472.reachGoal('whatsApp-click'); return true;">Спросить в What&#39;s App</a> <img alt="" src="/assets/images/whatsapp.png" style="position: relative; top: 10px;" />
+        <a class="sovest__popup__wtsapp"  href="https://api.whatsapp.com/send?phone=79036646767&amp;text=Здравствуйте! Расскажите мне об использовании карт Совесть и Халва." onclick="yaCounter23229472.reachGoal('whatsApp-click'); return true;">Спросить в What&#39;s App</a>
+         <img alt="" src="/assets/images/whatsapp.png" style="position: relative; top: 10px;" />
         
-        <a  id="setCookie" class="close" title="Закрыть" href="#" onclick="document.getElementById('sovest__parent_popup').style.display='none'; return false;"><span class="sovest__close"></span></a>
+        
        </div>
       
      </div>
-      
+      <a  id="setCookie" class="sovest__close" href="#" title="Закрыть" onclick="document.getElementById('sovest__parent_popup').style.display='none'; return false;"></a>
     </div>
   </div>
   <!--end rassrochka-->
-   
+ 
+ <!--script popup-->
+ <script src="/assets/js/jquery.cookie.js"></script>
+ <script type="text/javascript">
+   $(document).ready(function() {
+     
+     $("#setCookie").click(function () {
+       $.cookie("sovest__popup", "24house", {expires: 0} );
+       $("#sovest__parent_popup").hide();
+     });
+     if ( $.cookie("sovest__popup") == null )  {
+       setTimeout(function(){
+         $("#sovest__parent_popup").show();
+       }, 15000)
+     }  else { $("#sovest__parent_popup").hide();
+   }  
+     
+ });
+ 
+ 
+     </script>
+<!--end -->
+
     <script>
     $(document).ready(function() {
         $(".popup").fancybox({
@@ -156,35 +180,32 @@ if (screen.width < 415) {
     {{ form_close }} {{ /streams:form }}
 
 </div>
-
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter23229472 = new Ya.Metrika2({
-                    id:23229472,
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter23229472 = new Ya.Metrika({id:23229472,
+                    webvisor:true,
                     clickmap:true,
                     trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
 
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/tag.js";
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
 
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks2");
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/23229472" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="//mc.yandex.ru/watch/23229472" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
 <script>
@@ -317,46 +338,7 @@ $(document).ready(function () {
     
 });
 </script>
-<!--Подключение маски и формы-->
-
-<script src="/assets/js/maskedinput.js"></script> 
-<script src="/assets/js/send-forms.js"></script>
-
-<!-- hello -->
-<script src="https://my.hellobar.com/671ab21ccce856c36213a45eba9a65fef69c6742.js" type="text/javascript" charset="utf-8" async="async"></script>
 
 
-<!--cookie-->
-
-  <!--
-    <script type="text/javascript">
-      var delay_popup = 15000;
-      setTimeout("document.getElementById('sovest__parent_popup').style.display='block'", delay_popup);
-    </script>-->
-    <script  type="text/javascript" src="/assets/js/jquery-1.8.3.min.js"></script> 
-    <script  type="text/javascript" src="/assets/js/jquery.cookie.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $("#setCookie").click(function () {
-          $.cookie("sovest__popup", "24house", {expires: 0} );
-          $("#sovest__parent_popup").hide();
-        });
-          
-        if ( $.cookie("sovest__popup") == null )  {
-          setTimeout(function(){
-            $("#sovest__parent_popup").show();
-          }, 15000)
-        }  else { $("#sovest__parent_popup").hide();
-      }
-    });
-        </script>
-<!--end of rassrochka popup-->
-
-<!-- BEGIN JIVOSITE CODE {literal} 
-<script type='text/javascript'>
-(function(){ var widget_id = '9ZPFd16R9r';
-var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
-<!-- {/literal} END JIVOSITE CODE -->
-          
 
            

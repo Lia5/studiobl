@@ -394,17 +394,17 @@
     <script  language="JavaScript" type="text/javascript"  src="assets/js/rassrochka.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
+        
+        $("#setCookie").click(function () {
+          $.cookie("sovest__popup", "24house", {expires: 0} );
+          $("#sovest__parent_popup").hide();
+        });
         if ( $.cookie("sovest__popup") == null )  {
           setTimeout(function(){
             $("#sovest__parent_popup").show();
           }, 1000)
         }  else { $("#sovest__parent_popup").hide();
-      }
-        $("#setCookie").click(function () {
-          $.cookie("sovest__popup", "24house", {expires: 0} );
-          $("#sovest__parent_popup").hide();
-        });
-          
+      }  
         
     });
 
