@@ -357,31 +357,33 @@
     </div>
   </div>
 </div>
-    <div id="sovest__parent_popup">
-      <div id="sovest__popup">
-        <div class="sovest__popup__title">
-          Становись красивой сегодня - плати потом!
-        </div>
-        <div class="sovest__popup__description"> 
-          <div>Выбирайте услугу и платите картами Совесть или Халва с рассрочкой до 12 месяцев!</div>
-          
-          <div class="popup-img">
-            <a href="http://www.studiobl.ru/rassrochka.html"><img src="assets/images/rassrochka/popup-img.png" alt="Карты Совесть и Халва"></a>
-          </div>
-        </div>
-       <div class="sovest__btns">
-         <a href="http://www.studiobl.ru/rassrochka.html" class="sovest__main__btn">Узнать о картах</a> 
-         <div class="sovest__btns__wrapper">
-            <span> или </span> 
-          <a class="sovest__popup__wtsapp"  href="https://api.whatsapp.com/send?phone=79036646767&amp;text=Здравствуйте! Расскажите мне об использовании карт Совесть и Халва." onclick="yaCounter23229472.reachGoal('whatsApp-click'); return true;">Спросить в What&#39;s App</a> <img alt="" src="assets/images/whatsapp.png" style="position: relative; top: 10px;" />
-          
-          <a  id="setCookie"  title="Закрыть" href="#" onclick="document.getElementById('sovest__parent_popup').style.display='none'; return false;"><span class="sovest__close"></span></a>
-         </div>
-        
-       </div>
-        
+<!-- rassrochka popup-->
+<div id="sovest__parent_popup">
+  <div id="sovest__popup">
+    <div class="sovest__popup__title">
+      Становись красивой сегодня - плати потом!
+    </div>
+    <div class="sovest__popup__description"> 
+      <div>Выбирайте услугу и платите картами Совесть или Халва с рассрочкой до 12 месяцев!</div>
+      
+      <div class="popup-img">
+        <a href="http://www.studiobl.ru/rassrochka"><img src="assets/images/rassrochka/popup-img.png" alt="Карты Совесть и Халва"></a>
       </div>
     </div>
+   <div class="sovest__btns">
+     <a href="http://www.studiobl.ru/rassrochka" class="sovest__main__btn">Узнать о картах</a> 
+     <div class="sovest__btns__wrapper">
+        <span> или </span> 
+      <a class="sovest__popup__wtsapp"  href="https://api.whatsapp.com/send?phone=79036646767&amp;text=Здравствуйте! Расскажите мне об использовании карт Совесть и Халва." onclick="yaCounter23229472.reachGoal('whatsApp-click'); return true;">Спросить в What&#39;s App</a> <img alt="" src="assets/images/whatsapp.png" style="position: relative; top: 10px;" />
+      
+      
+     </div>
+    
+   </div>
+    <a  id="setCookie" class="sovest__close" href="#" title="Закрыть" onclick="document.getElementById('sovest__parent_popup').style.display='none'; return false;"></a>
+  </div>
+</div>
+<!--end rassrochka-->
     <!--
     <script type="text/javascript">
       var delay_popup = 15000;
@@ -392,18 +394,21 @@
     <script  language="JavaScript" type="text/javascript"  src="assets/js/rassrochka.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
+        if ( $.cookie("sovest__popup") == null )  {
+          setTimeout(function(){
+            $("#sovest__parent_popup").show();
+          }, 1000)
+        }  else { $("#sovest__parent_popup").hide();
+      }
         $("#setCookie").click(function () {
           $.cookie("sovest__popup", "24house", {expires: 0} );
           $("#sovest__parent_popup").hide();
         });
           
-        if ( $.cookie("sovest__popup") == null )  {
-          setTimeout(function(){
-            $("#sovest__parent_popup").show();
-          }, 15000)
-        }  else { $("#sovest__parent_popup").hide();
-      }
+        
     });
+
+
         </script>
     
 </body>

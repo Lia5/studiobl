@@ -1,0 +1,43 @@
+  <div class="wrapper">
+    <div class="header inner-page">
+        <div class="resize">
+
+<!--            <a class="logo index" href="/"><img src="/assets/images/logo.png" width="140" height="140" alt="logo" /></a>-->
+
+           
+            <div class="logo">
+               <a href="" class="btn-menu btn-book xs-show">Записаться</a>
+                <a href="/"><img src="/assets/images/logo.png" width="227" height="227" alt="logo"></a>
+                <a href="" class="btn-menu btn-menu-service btn-menu--empty xs-show">Услуги и цены</a>
+            </div>
+            <!--end of logo-->
+            <div class="top_menu">
+                <ul>
+                    {{ navigation:links group="header" }}
+                </ul>
+            </div>
+            <!--end of top_menu-->
+            {{ theme:partial name="top" }}
+            <!--end of contacts_and_services-->
+            <div class="clr"></div>
+            <div class="left_menu">
+              <p class="xs-show">Услуги и цены</p>
+               <a href="" class="left_menu--close xs-show">x</a>
+                <ul>
+                    {{ navigation:links group="sidebar" }}
+                </ul>
+                <div class="clr"></div>
+
+                {{ search:form class="search-form search" }}
+                <input type="text" name="q" value="Поиск" onblur="if(this.value == '') { this.value='Поиск'}" onfocus="if (this.value == 'Поиск') {this.value=''}" /> {{ /search:form }}
+
+                <div class="clr"></div>
+            </div>
+            <!--end of left_menu-->
+          
+            <div class="clr"></div>
+        </div>
+        <!--end of resize-->
+    </div>
+    <!--end of header-->
+</div>

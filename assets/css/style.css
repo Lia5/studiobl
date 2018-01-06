@@ -3104,9 +3104,9 @@ body {
 
 #sovest__parent_popup{
   background-color: rgba(255, 255, 255, 0.8);
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-end;*/
   display: none;
   position: fixed;
   z-index: 99999;
@@ -3201,6 +3201,9 @@ body {
   }
   .sovest__btns__wrapper {
     padding-left: 20px;
+  }
+  .close{
+    display:block;
   }
 
 @media screen and (max-width: 1200px) {
