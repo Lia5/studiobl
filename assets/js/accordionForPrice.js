@@ -1,4 +1,7 @@
+  if(jQuery('cta-block').length) {
+
 document.addEventListener('DOMContentLoaded', function(){
+
     var doc = document,
         accItems = doc.querySelectorAll('.acc h2'),
         divs = doc.querySelectorAll('.acc > div'),
@@ -31,7 +34,11 @@ document.addEventListener('DOMContentLoaded', function(){
          
       }
     }
+  
     })
+  }
+
+  
     
           // if(el.getElementsByClassName('cta-block').length !== 0){
               

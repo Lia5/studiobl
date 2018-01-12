@@ -2419,7 +2419,7 @@ tr:hover {
   width: 20px;
   height: 3px;
   background-color: #ffffff;
-  top: 13px;
+  margin-top: 13px;
   margin-left: 5px;
 }
 .application-form__done__close:before,
@@ -2443,11 +2443,7 @@ transform: rotate(-45deg);
 }
 
 
-@media (max-width: 376px) {
-  .scontent img {
-    width: auto;
-  }
-}
+
 
 /*sovest*/
 body {
@@ -2518,7 +2514,7 @@ body {
 .choice-title:before {
   content: "";
   position: absolute;
-  top: 27px;
+  top: 30px;
   left: 60px;
   width: 34px;
   height: 34px;
@@ -2605,7 +2601,7 @@ body {
   text-align: center;
 }
 .sovest__landing__benefits__twin-wrap {
- /* width: 880px;*/
+  /*width: 880px;*/
   display: flex;
   justify-content: center;
 }
@@ -2805,17 +2801,6 @@ body {
 }
 
 @media screen and (max-width: 706px) {
-  .tabs__controls-item {
-    width: 100%;
-    margin: 0;
-  }
-  .choice-title:before {
-    left: 10%;
-  }
-  .rassrochka__block h2 {
-    font-size: 27px;
-    line-height: 1.2;
-  }
   .rassrochka__block__logo {
     width: 100%;
     margin-top: 20px;

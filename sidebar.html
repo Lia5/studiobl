@@ -1,0 +1,52 @@
+            <div class="sidebar">
+            	<div class="titler">
+                <div class="sbh">Партнеры</div>
+                <p>С которыми мы работаем</p>
+                </div>
+                <!--end of titler-->
+                <div class="sliderok">
+                    <div class="sliderin">
+                        {{ streams:cycle stream="partners" partial="1of5" }}
+                        <div class="item">
+                            <img src="{{ picture:image }}" width="140" height="30" alt="img" />
+                            <p>{{ partner_about }}</p>
+                        </div>                            
+                        {{ /streams:cycle }}
+                    </div>
+                    <div class="sliderin">
+                        {{ streams:cycle stream="partners" partial="2of5" }}
+                        <div class="item">
+                            <img src="{{ picture:image }}" width="140" height="30"  alt="img" />
+                            <p>{{ partner_about }}</p>
+                        </div>                            
+                        {{ /streams:cycle }}
+                    </div>
+                    <div class="sliderin">
+                        {{ streams:cycle stream="partners" partial="3of5" }}
+                        <div class="item">
+                            <img src="{{ picture:image }}" width="140" height="30"  alt="img" />
+                            <p>{{ partner_about }}</p>
+                        </div>                            
+                        {{ /streams:cycle }}
+                    </div>
+                    <div class="sliderin">
+                        {{ streams:cycle stream="partners" partial="4of5" }}
+                        <div class="item">
+                            <img src="{{ picture:image }}" width="140" height="30"  alt="img" />
+                            <p>{{ partner_about }}</p>
+                        </div>                            
+                        {{ /streams:cycle }}
+                    </div>
+                    <div class="sliderin">
+                        {{ streams:cycle stream="partners" partial="1of5" }}
+                        <div class="item">
+                            <img src="{{ picture:image }}" width="140" height="30" alt="img" />
+                            <p>{{ partner_about }}</p>
+                        </div>                            
+                        {{ /streams:cycle }}
+                    </div>
+                </div>
+                <!--end of sldierok-->
+                <div class="pagerok"></div>
+            </div>
+            <!--end of sidebar-->
