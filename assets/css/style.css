@@ -3255,6 +3255,8 @@ body {
   }
   #sovest__parent_popup {
     height: 100vh;
+    min-height: 350px;
+    z-index: 99999999;
   }
   .sovest__btns {
     flex-direction: column;
@@ -3267,6 +3269,23 @@ body {
     padding-left: 0;
     margin: 0 auto;
   }
+  .rassrochka__block-card2 {
+    width: 100%;
+  }
+  .rassrochka__block-right {
+    width: 100%;
+  }
+  .rassrochka__block .tarifs__items {
+    padding-left: 0;
+  }
+  .tarifs__items td {
+    padding: 2px;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+
+  
 
 }
 @media screen and (max-width: 360px) {
