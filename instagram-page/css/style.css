@@ -166,6 +166,7 @@ h6 {
 
 }
 .inst-btn-write {
+  display: block;
   margin: 102px 0 6px;
   padding: 0px;
   font-size: 82px;
