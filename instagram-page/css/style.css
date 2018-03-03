@@ -1,0 +1,58 @@
+@font-face { 
+  font-family: 'PFHandbookPro-Bold'; 
+  src: url('fonts/PFHandbookPro-Bold.woff2') format('woff2'),
+    url('fonts/PFHandbookPro-Bold.eot') format('eot'),
+    url('fonts/PFHandbookPro-Bold.svg') format('svg'),
+    url('fonts/PFHandbookPro-Bold.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+    url('fonts/PFHandbookPro-Bold.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: normal; 
+}
+@font-face { 
+  font-family: 'PFHandbookPro-Thin'; 
+  src: url('fonts/PFHandbookPro-Thin.woff2') format('woff2'),
+    url('fonts/PFHandbookPro-Thin.eot') format('eot'),
+    url('fonts/PFHandbookPro-Thin.svg') format('svg'),
+    url('fonts/PFHandbookPro-Thin.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+    url('fonts/PFHandbookPro-Thin.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: normal; 
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	line-height: 1.4;
+	background: #ffffff;
+  position: relative;
+  font-family: 'PFHandbookPro-Thin', Arial, sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+li {	
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: normal;
+}
