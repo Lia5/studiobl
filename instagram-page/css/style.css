@@ -68,6 +68,11 @@ h6 {
 	margin: 0;
 	font-weight: normal;
 }
+.inst-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .inst-adress {
   font-size: 36px;
@@ -76,14 +81,18 @@ h6 {
   color: #ffffff;
   padding: 13px;
   font-family: 'MyriadPro-Regular', Arial, sans-serif;
+  height: 5%;
 }
 .inst-wrapper {
   max-width: 750px;
   padding-left: 75px;
   padding-right: 75px;
   padding-bottom: 30px;
-  margin: 0 auto;
   text-align: center;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .inst-title {
   font-size: 72px;
@@ -186,39 +195,46 @@ h6 {
 }
 
 @media screen and (max-width: 749px) {
+  .inst-wrap {
+    height: 100vh;
+    min-height: 420px;
+  }
   .inst-wrapper {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 0;
   }
   .inst-adress {
-    font-size: 24px;
+    font-size: 16px;
+    padding: 1%;
   }
   .inst-main {
     position: relative;
-    padding: 89px 30px 38px;
-    margin-top: 136px;
+    padding: 17% 10% 1%;
+    margin-top: 10%;
   }
   .inst-title {
-    font-size: 34px;
-    margin-top: 36px;
+    font-size: 31px;
+    margin-top: 1%;
   }
   .inst-logo {
-    width: 160px;
-    height: 160px;
-    padding: 14px 23px;
+    width: 90px;
+    height: 90px;
+    padding: 7px 12px;
+    top: 1%;
   }
   .inst-social__item {
-    margin: 5px;
+    margin: 6px 10px;
   }
   .inst-social__item svg {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
   }  
 
   .inst-main__txt {
-    margin-top: 13px;
+    margin-top: 0;
     margin-left: 5px;
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .inst-main__tel {
@@ -237,15 +253,17 @@ h6 {
     height: 37px;
   }
   .inst-go-to-site {
-    font-size: 28px;
+    font-size: 22px;
+    padding: 3%;
   }
   .inst-btn-write {
-    margin: 35px 0 6px;
+    margin: 0;
     padding: 0px;
-    font-size: 47px;
+    font-size: 34px;
+    line-height: 1.2;
   }
   .inst-price {
-    font-size: 28px;
+    font-size: 22px;
   }
 
 
