@@ -55,6 +55,40 @@
   </div>
   <!--end rassrochka-->
  
+<!-- video popup--> 
+<div id="transit-video-trigger" class="js-transit-video-trigger " trigger-delay="30">
+        <h4>Вся правда о лазерной эпиляции</h4>
+        <!-- <img class="play" src="/img/play-140.png" alt="play"> -->
+        <div class="play" id="transit-video-play">
+          <div class="play-pic">
+            <div class="play-pic-arrow"></div>
+          </div>
+        </div>
+        <div class="click-zone"></div>
+        <div class="seen-already js-close-trigger">
+          <a id="setCookie2" href='#' onclick="document.getElementById('transit-video-trigger').removeClass('view'); return false;">Спасибо, уже видели</a>
+        </div>
+        <div class="close js-close-trigger-x">
+          <div class="close-lines"></div>
+          <!-- <img src="/img/play-close.png" alt="close"> -->
+        </div>
+      </div>
+      <div id="transit-video-popup" class="popup-wnd">
+        <div class="popup-content popup-video">
+          <div class="video-wnd">
+            <div class="video">
+              <div class="videoPlayer youtubeMarker js-transit-video-player" video-width="640" video-height="360" style="width: 860px; height: 484px;">
+                <iframe class="iframe" id="Fvd_QFZpYhs" video-id="Fvd_QFZpYhs" width="860" height="484" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media" title="YouTube video player" src="https://www.youtube.com/embed/mXFTfGxktGU?showinfo=0&amp;controls=1&amp;modestbranding=0&amp;wmode=opaque&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fwww.studiobl.ru&amp;widgetid=1"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="close-btn js-close" id="transit-video-popup-close-btn">
+          <div class="close-lines"></div>
+        </div>
+      </div>
+      
+      <!--end video-->
 
     </div>
     <!--end of footer-->
@@ -358,3 +392,66 @@ $(document).ready(function () {
  
      </script>
 <!--end -->
+
+<!--video-popup -->
+
+<script>
+     
+        $(document).ready(function() {
+         if(jQuery('#transit-video-popup').length) {
+           /*появление окна*/
+             // var delay_popup = 2000;
+             // setTimeout("document.getElementById('transit-video-trigger').classList.add('view')", delay_popup);
+           /*скрытие окна*/
+           $('.js-close-trigger-x').click(function() {
+             $('.js-transit-video-trigger').removeClass('view');
+           });
+       /*play*/
+       
+       
+           $(document).on('click', '#transit-video-play', function() {
+             var $video = $('#Fvd_QFZpYhs'),
+               src = $video.attr('src');
+               if ($video.attr("src")) {
+                 /*если есть атрибут*/
+                 $video.attr('src', src + '&autoplay=1');
+               } else {
+                 var src = $video.attr('src');
+                 $video.attr('src', 'https://www.youtube.com/embed/mXFTfGxktGU?showinfo=0&controls=1&modestbranding=0&wmode=opaque&enablejsapi=1&origin=http%3A%2F%2Fwww.studiobl.ru&widgetid=1&autoplay=1');
+               }
+           });
+       /*открытие попапа с видео*/
+           $('#transit-video-play').click(function() {
+             $('.popup-wnd').addClass('opened');
+           });
+           /*автоматический запуск видео*/
+           $('#transit-video-popup .close-btn ').click(function() {
+             var $video = $('#Fvd_QFZpYhs'),
+                 src = $video.attr('src');
+             $video.removeAttr('src');
+             $('.popup-wnd').removeClass('opened');
+           });
+       
+           $("#setCookie2").click(function () {
+             $.cookie("transit-video-trigger", "24house", {expires: 0} );
+             $("#transit-video-trigger").removeClass('view');
+           });
+       
+           if ( $.cookie("transit-video-trigger") == null )  {
+             setTimeout(function(){
+               $("#transit-video-trigger").addClass('view');
+             }, 1000)
+           } else { 
+             $("#transit-video-trigger").removeClass('view');
+           } 
+       
+       
+         }
+       });
+       
+       
+       
+               </script>
+           
+
+<!--end video popup -->
