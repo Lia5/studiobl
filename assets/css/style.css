@@ -2583,8 +2583,12 @@ body {
 .tabs__item.active {
   display: block;
 }
-
-
+.biorevitalizaciya-price {
+  margin: 17px 0;
+}
+.acc .biorevitalizaciya-price--open {
+  height: auto;
+}
 
 
 /*sovest__landing*/
@@ -3318,3 +3322,263 @@ body {
 }
 
 /*end popup sovest*/
+
+
+/*vadeo popup*/
+
+#transit-video-trigger.view {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+#transit-video-trigger {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 25px 30px 45px;
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    z-index: 50;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: transform .5s ease,color .3s ease,background-color .3s ease;
+    -moz-transition: transform .5s ease,color .3s ease,background-color .3s ease;
+    -ms-transition: transform .5s ease,color .3s ease,background-color .3s ease;
+    -o-transition: transform .5s ease,color .3s ease,background-color .3s ease;
+    transition: transform .5s ease,color .3s ease,background-color .3s ease;
+}
+#transit-video-trigger h4 {
+  font-family: kievit-medium,Helvetica,Arial;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+#transit-video-trigger .close, 
+#transit-video-trigger .play-pic {
+  -webkit-transition: transform .3s ease;
+  -moz-transition: transform .3s ease;
+  -ms-transition: transform .3s ease;
+  -o-transition: transform .3s ease;
+}
+#transit-video-trigger .play-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 20px auto;
+  -webkit-transition: transform .3s ease;
+  -moz-transition: transform .3s ease;
+  -ms-transition: transform .3s ease;
+  transition: transform .3s ease;
+  outline: 0;
+  border: 0;
+  position: relative;
+  top: 0;
+}
+#transit-video-trigger .play-pic:hover {
+  top: -7px;
+  -webkit-transition: top .3s ease;
+  -moz-transition: top .3s ease;
+  -ms-transition: top .3s ease;
+  -o-transition: top .3s ease;
+  transition: top .3s ease;
+}
+#transit-video-trigger .play-pic-arrow {
+  border: 10px solid transparent;
+  border-left: 20px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+#transit-video-trigger .click-zone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: 5; */
+  z-index: -1;
+}
+#transit-video-trigger .click-zone
+#transit-video-trigger div.seen-already {
+  position: absolute;
+  left: 0;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  -ms-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+  white-space: nowrap;
+  z-index: 6;
+}
+.close-lines {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  opacity: 0.3;
+  }
+.close-lines:hover {
+  opacity: 1;
+  }
+.close-lines:before, .close-lines:after {
+  position: absolute;
+  left: 10px;
+  content: ' ';
+  height: 20px;
+  width: 2px;
+  background-color: #fff;
+  }
+.close-lines:before {
+  transform: rotate(45deg);
+  }
+.close-lines:after {
+  transform: rotate(-45deg);
+  }
+
+  #transit-video-popup .close-lines {
+    width: 60px;
+    height: 60px;
+  }
+#transit-video-popup .close-lines:before, #transit-video-popup .close-lines:after {
+  background-color: #009841;
+  left: 28px;
+  height: 60px;
+  width: 5px;
+}
+.popup-wnd .close-btn:hover {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+  #transit-video-trigger div.close:hover {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#transit-video-trigger div.seen-already span {
+  border-bottom: 1px #fff dotted;
+}
+#transit-video-trigger div.seen-already:hover {
+  -webkit-opacity: .5;
+  -moz-opacity: .5;
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+#transit-video-trigger .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  z-index: 6;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+  transition: transform .3s ease;
+}
+#transit-video-trigger div.close img, 
+.popup-wnd {
+  width: 100%;
+  height: 100%;
+}
+#transit-video-trigger div.close img {
+  outline: 0;
+  border: 0;
+  position: relative;
+}
+.popup-wnd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  -webkit-transition: transform .5s ease-in-out;
+  -moz-transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  background-color: #f2f1f0;
+}
+
+@media (min-width: 1440px) {
+.popup-wnd .popup-content {
+    padding: 0 80px;
+}
+}
+@media (min-width: 1280px) {
+.popup-wnd .popup-content {
+    padding: 0 60px;
+}
+.popup-wnd .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 0 50px;
+}
+}
+
+.popup-wnd.opened {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.flipbook-viewport, 
+.popup-wnd .popup-video .video-wnd, 
+.popup-wnd .popup-video .video-wnd .videoPlayer {
+  position: relative;
+}
+.popup-wnd .popup-video .video-wnd .video {
+  position: relative;
+  border: 1px solid #e3e0d2;
+  overflow: hidden;
+}
+.popup-wnd .close-btn {
+  position: absolute;
+  top: 42px;
+  right: 42px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background: url(/img/sprite.png) -424px -90px no-repeat;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/*end vadeo popup*/
+

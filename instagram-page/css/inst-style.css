@@ -168,7 +168,7 @@ h6 {
 .inst-btn-write {
   display: block;
   margin: 102px 0 6px;
-  padding: 0px;
+  padding: 8px;
   font-size: 82px;
   background-color: #5f9c57;
   color: #ffffff;
@@ -180,6 +180,8 @@ h6 {
 }
 .inst-price {
   font-size: 42px;
+}
+.inst-price span {
   border-bottom: 2px solid #5f9c57;
 }
 
@@ -248,7 +250,6 @@ h6 {
   }
   .inst-btn-write {
     margin: 0;
-    padding: 0px;
     font-size: 34px;
     line-height: 1.2;
   }
