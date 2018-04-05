@@ -376,8 +376,6 @@
        <div class="sovest__btns__wrapper">
           <span> или </span> 
         <a class="sovest__popup__wtsapp"  href="https://api.whatsapp.com/send?phone=79036646767&amp;text=Здравствуйте! Расскажите мне об использовании карт Совесть и Халва." onclick="yaCounter23229472.reachGoal('whatsApp-click'); return true;">Спросить в What&#39;s App</a> <img alt="" src="assets/images/whatsapp.png" style="position: relative; top: 10px;" />
-        
-        
        </div>
       
      </div>
@@ -396,9 +394,9 @@
     </div>
     <div class="click-zone"></div>
     <div class="seen-already js-close-trigger">
-      <a id="setCookie2" href='#' onclick="document.getElementById('transit-video-trigger').removeClass('view'); return false;">Спасибо, уже видели</a>
+      <a class="setCookie2" href='#' onclick="document.getElementById('transit-video-trigger').removeClass('view'); return false;">Спасибо, уже видели</a>
     </div>
-    <div class="close js-close-trigger-x">
+    <div class="close js-close-trigger-x setCookie2">
       <div class="close-lines"></div>
       <!-- <img src="/img/play-close.png" alt="close"> -->
     </div>
@@ -413,14 +411,14 @@
         </div>
       </div>
       <div class="transit-video-popup-buttons">
-        <a class="pricebutton" href="http://www.studiobl.ru/uslugi/ceny-na-uslugi">Посмотреть цены</a>
+        <a class="pricebutton" href="http://laser.studiobl.ru/#price">Посмотреть цены</a>
 
-        <a href="https://api.whatsapp.com/send?phone=79036646767&amp;text=Здравствуйте! Я хочу записаться на перманентный макияж." onclick="yaCounter23229472.reachGoal('whatsApp-click'); return true;">Написать в What's App</a>
+        <a href="https://api.whatsapp.com/send?phone=79036646767&amp;text=Здравствуйте! Я хочу получить консультацию по Лазерной эпиляции." onclick="yaCounter23229472.reachGoal('whatsApp-click'); return true;">Написать в What's App</a>
         <img alt="" src="/assets/images/whatsapp.png" style="position: relative; top: 10px;">
       </div>
       
     </div>
-    <div class="close-btn js-close" id="transit-video-popup-close-btn">
+    <div class="close-btn js-close setCookie2" id="transit-video-popup-close-btn">
       <div class="close-lines"></div>
     </div>
   </div>
@@ -497,7 +495,7 @@
       $('.popup-wnd').removeClass('opened');
     });
 
-    $("#setCookie2").click(function () {
+    $(".setCookie2").click(function () {
       $.cookie("transit-video-trigger", "24house", {expires: 0} );
       $("#transit-video-trigger").removeClass('view');
     });
@@ -505,7 +503,7 @@
     if ( $.cookie("transit-video-trigger") == null )  {
       setTimeout(function(){
         $("#transit-video-trigger").addClass('view');
-      }, 1000)
+      }, 10000)
     } else { 
       $("#transit-video-trigger").removeClass('view');
     }

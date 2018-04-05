@@ -3330,13 +3330,14 @@ body {
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
+  z-index: 9999999999;
 }
 #transit-video-trigger {
   position: fixed;
   left: 0;
   bottom: 0;
   padding: 25px 30px 45px;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.94);
   color: #fff;
   z-index: 999;
   cursor: pointer;
@@ -3585,7 +3586,7 @@ transition: all .5s ease;
   height: 484px;
 }
 .transit-video-popup-buttons {
-  margin: 0 auto;
+  margin: 30px auto 0;
   text-align: center;
 }
 @media screen and (max-width: 880px) {
@@ -3623,14 +3624,29 @@ transition: all .5s ease;
 }
 @media screen and (max-width: 490px) {
  #transit-video-popup .videoPlayer.youtubeMarker {
+   min-height: 300px;
+  }
+  #Fvd_QFZpYhs {
+    min-height: 300px;
+  }
+  .popup-content.popup-video {
+  margin-top: 30%;
+}
+}
+@media screen and (max-width: 380px) {
+ #transit-video-popup .videoPlayer.youtubeMarker {
    min-height: 185px;
   }
   #Fvd_QFZpYhs {
     min-height: 185px;
   }
   .popup-content.popup-video {
-  margin-top: 50%;
+  margin-top: 34%;
+}
+.transit-video-popup-buttons .pricebutton {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
 }
 }
-
 /*end vadeo popup*/
