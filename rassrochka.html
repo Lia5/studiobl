@@ -412,6 +412,13 @@
           </div>
         </div>
       </div>
+      <div class="transit-video-popup-buttons">
+        <a class="pricebutton" href="http://www.studiobl.ru/uslugi/ceny-na-uslugi">Посмотреть цены</a>
+
+        <a href="https://api.whatsapp.com/send?phone=79036646767&amp;text=Здравствуйте! Я хочу записаться на перманентный макияж." onclick="yaCounter23229472.reachGoal('whatsApp-click'); return true;">Написать в What's App</a>
+        <img alt="" src="/assets/images/whatsapp.png" style="position: relative; top: 10px;">
+      </div>
+      
     </div>
     <div class="close-btn js-close" id="transit-video-popup-close-btn">
       <div class="close-lines"></div>
@@ -501,8 +508,19 @@
       }, 1000)
     } else { 
       $("#transit-video-trigger").removeClass('view');
-    } 
+    }
+    
+    
+    var iframe = document.getElementById('Fvd_QFZpYhs');
+    var style = document.createElement('style');
+    style.textContent =
+      '.ytp-cued-thumbnail-overlay-image {' +
+      '  backgroundPosition:100%;' +
+      '}' 
+    ;
+    iframe.contentDocument.head.appendChild(style);
 
+   
 
   }
 });
